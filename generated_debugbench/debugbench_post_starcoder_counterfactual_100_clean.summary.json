@@ -1,0 +1,31 @@
+{
+  "input_jsonl": "generated_debugbench/debugbench_post_starcoder_counterfactual_100.jsonl",
+  "out_jsonl": "generated_debugbench/debugbench_post_starcoder_counterfactual_100_clean.jsonl",
+  "rejected_jsonl": "generated_debugbench/debugbench_post_starcoder_counterfactual_100_clean.rejected.jsonl",
+  "num_input_rows": 100,
+  "num_output_rows": 100,
+  "num_rejected_rows": 0,
+  "action_counts": {
+    "clean_any_line_fallback": 28,
+    "repaired_existing_span": 5,
+    "kept_existing_good": 32,
+    "rebuilt_from_solution_diff": 35
+  },
+  "reject_reason_counts": {},
+  "mode_counts": {
+    "any_line_clean": 28,
+    "any_line": 31,
+    "diff_line": 41
+  },
+  "mutation_type_counts": {
+    "integer": 38,
+    "type_name": 6,
+    "operator": 42,
+    "method_name": 4,
+    "keyword_or_boolean": 4,
+    "identifier": 1,
+    "function_or_method_name": 1,
+    "boolean_or_null": 3,
+    "float": 1
+  }
+}

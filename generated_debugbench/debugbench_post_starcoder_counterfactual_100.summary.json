@@ -1,0 +1,16 @@
+{
+  "dataset": "Rtian/DebugBench",
+  "split": "test",
+  "out_jsonl": "generated_debugbench/debugbench_post_starcoder_counterfactual_100.jsonl",
+  "skipped_jsonl": "generated_debugbench/debugbench_post_starcoder_counterfactual_100.skipped.jsonl",
+  "target_count": 100,
+  "num_output_records": 100,
+  "num_skipped_seen_while_searching": 26,
+  "after_date": "2023-05-04",
+  "language": null,
+  "fallback_any_line": true,
+  "mode_counts": {
+    "diff_line": 47,
+    "any_line": 53
+  }
+}
