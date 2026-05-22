@@ -1,0 +1,49 @@
+{
+  "delta_sum_nll": {
+    "n": 124,
+    "mean": 0.38099560141563416,
+    "median": 0.24747657775878906,
+    "std": 1.636019229888916,
+    "min": -5.023433685302734,
+    "max": 7.369861125946045,
+    "frac_positive": 0.6370967626571655
+  },
+  "delta_mean_nll": {
+    "n": 124,
+    "mean": 0.4085138440132141,
+    "median": 0.21393215656280518,
+    "std": 1.530517339706421,
+    "min": -5.023433685302734,
+    "max": 7.369861125946045,
+    "frac_positive": 0.6451612710952759
+  },
+  "by_type_delta_sum_nll": {
+    "None": {
+      "n": 124,
+      "mean": 0.38099560141563416,
+      "median": 0.24747657775878906,
+      "std": 1.636019229888916,
+      "min": -5.023433685302734,
+      "max": 7.369861125946045,
+      "frac_positive": 0.6370967626571655
+    }
+  },
+  "by_level_delta_sum_nll": {
+    "None": {
+      "n": 124,
+      "mean": 0.38099560141563416,
+      "median": 0.24747657775878906,
+      "std": 1.636019229888916,
+      "min": -5.023433685302734,
+      "max": 7.369861125946045,
+      "frac_positive": 0.6370967626571655
+    }
+  },
+  "num_records": 124,
+  "num_count_mismatch_records": 0,
+  "model": "openai-community/gpt2-xl",
+  "dataset": "generated/manual_natural_number_perturbed_52.jsonl",
+  "split": "train",
+  "levels": "all",
+  "out_jsonl": "result_num/math_gpt2xl_L4L5_numlogprob.jsonl"
+}

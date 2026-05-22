@@ -1,0 +1,6 @@
+{"name": "hanoi", "reason": "could_not_locate_span", "orig_loc_mode": "line_unique_span", "cf_loc_mode": "not_found_or_ambiguous", "orig_span": "helper", "cf_span": "start"}
+{"name": "is_valid_parenthesization", "reason": "could_not_locate_span", "orig_loc_mode": "line_unique_span", "cf_loc_mode": "not_found_or_ambiguous", "orig_span": "True", "cf_span": "False"}
+{"name": "kth", "reason": "could_not_locate_span", "orig_loc_mode": "not_found_or_ambiguous", "cf_loc_mode": "line_unique_span", "orig_span": "k", "cf_span": "k - num_less"}
+{"name": "levenshtein", "reason": "could_not_locate_span", "orig_loc_mode": "not_found_or_ambiguous", "cf_loc_mode": "line_unique_span", "orig_span": "1", "cf_span": "2"}
+{"name": "longest_common_subsequence", "reason": "could_not_locate_span", "orig_loc_mode": "not_found_or_ambiguous", "cf_loc_mode": "line_unique_span", "orig_span": "b", "cf_span": "b[:-1]"}
+{"name": "shunting_yard", "reason": "could_not_locate_span", "orig_loc_mode": "line_unique_span", "cf_loc_mode": "not_found_or_ambiguous", "orig_span": "rpntokens", "cf_span": "opstack"}

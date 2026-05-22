@@ -1,0 +1,49 @@
+{
+  "delta_sum_nll": {
+    "n": 124,
+    "mean": 0.621947705745697,
+    "median": 0.0625,
+    "std": 1.9563286304473877,
+    "min": -4.45214319229126,
+    "max": 7.426687240600586,
+    "frac_positive": 0.6048387289047241
+  },
+  "delta_mean_nll": {
+    "n": 124,
+    "mean": 0.3795093297958374,
+    "median": 0.017255635932087898,
+    "std": 1.055762529373169,
+    "min": -2.75,
+    "max": 3.713343620300293,
+    "frac_positive": 0.5967742204666138
+  },
+  "by_type_delta_sum_nll": {
+    "None": {
+      "n": 124,
+      "mean": 0.621947705745697,
+      "median": 0.0625,
+      "std": 1.9563286304473877,
+      "min": -4.45214319229126,
+      "max": 7.426687240600586,
+      "frac_positive": 0.6048387289047241
+    }
+  },
+  "by_level_delta_sum_nll": {
+    "None": {
+      "n": 124,
+      "mean": 0.621947705745697,
+      "median": 0.0625,
+      "std": 1.9563286304473877,
+      "min": -4.45214319229126,
+      "max": 7.426687240600586,
+      "frac_positive": 0.6048387289047241
+    }
+  },
+  "num_records": 124,
+  "num_count_mismatch_records": 0,
+  "model": "YU-MO/Yumo",
+  "dataset": "generated/manual_natural_number_perturbed_52.jsonl",
+  "split": "train",
+  "levels": "all",
+  "out_jsonl": "result_num/smt2025_gpt_yumo_15_numlogprob.jsonl"
+}

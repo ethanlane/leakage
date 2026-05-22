@@ -1,0 +1,34 @@
+{
+  "delta_sum_nll": {
+    "n": 31,
+    "mean": 2.3323093891547675,
+    "median": 1.5574152553454041,
+    "std": 4.698020227637041,
+    "min": -4.703215630281193,
+    "max": 11.695150289498997,
+    "frac_positive": 0.6451612903225806,
+    "positive_mean": 5.032548207502941,
+    "positive_median": 4.89410850754939
+  },
+  "delta_mean_nll": {
+    "n": 31,
+    "mean": 1.25893912069327,
+    "median": 0.7782197019310366,
+    "std": 2.615645001173794,
+    "min": -4.997603679696718,
+    "max": 8.757423158951406,
+    "frac_positive": 0.7096774193548387,
+    "positive_mean": 2.293172406569928,
+    "positive_median": 1.389704367192462
+  },
+  "num_records": 31,
+  "num_token_count_mismatch": 18,
+  "num_positive": 20,
+  "model": "bigcode/starcoderbase-3b",
+  "input_jsonl": "generated/quixbugs_manual_counterfactual_full.jsonl",
+  "out_jsonl": "result_code/quixbugs_starcoderbase3b_spanlogprob_clean.jsonl",
+  "num_input_rows": 37,
+  "num_scored_rows": 31,
+  "num_skipped": 6,
+  "skip_token_count_mismatch": false
+}

@@ -1,0 +1,34 @@
+{
+  "delta_sum_nll": {
+    "n": 43,
+    "mean": 2.8565184550498937,
+    "median": 3.6419505029916763,
+    "std": 4.734252449379211,
+    "min": -14.535416603088379,
+    "max": 10.578830480575562,
+    "frac_positive": 0.8372093023255814,
+    "positive_mean": 4.467749819865882,
+    "positive_median": 3.9964234828948975
+  },
+  "delta_mean_nll": {
+    "n": 43,
+    "mean": 2.120755318040587,
+    "median": 2.036569595336914,
+    "std": 3.6460457356138796,
+    "min": -8.437378102971707,
+    "max": 7.917845010757446,
+    "frac_positive": 0.8372093023255814,
+    "positive_mean": 3.375296092683803,
+    "positive_median": 2.534929322078824
+  },
+  "num_records": 43,
+  "num_token_count_mismatch": 6,
+  "num_positive": 36,
+  "model": "bigcode/starcoderbase-3b",
+  "input_jsonl": "generated_debugbench/debugbench_counterfactual_curated_llm_fixed43.jsonl",
+  "out_jsonl": "result_code/debugbench_llm_fixed43_starcoderbase3b_spanlogprob_clean.jsonl",
+  "num_input_rows": 43,
+  "num_scored_rows": 43,
+  "num_skipped": 0,
+  "skip_token_count_mismatch": false
+}
