@@ -1,0 +1,1 @@
+{"name": "get_factors", "reason": "buggy_line occurrence count is 2, expected 1", "buggy_line": "    return []"}
