@@ -1,0 +1,24 @@
+{
+  "n": 1408,
+  "mean_score": 1.1275523792613635,
+  "median_score": 1.0625,
+  "std_score": 2.728075664912983,
+  "min_score": -10.70703125,
+  "max_score": 11.859375,
+  "frac_positive": 0.6683238636363636,
+  "positive_half_mean": 2.578585779755579,
+  "mean_orig_logp": -6.425867254083807,
+  "mean_sub_logp": -7.553419633345171,
+  "mean_orig_nll": 6.425867254083807,
+  "mean_sub_nll": 7.553419633345171,
+  "skip_counts": {
+    "sub_not_one_token": 232,
+    "orig_not_one_token": 95,
+    "orig_no_context_for_first_token": 18
+  },
+  "input_rows": 1753,
+  "kept_rows": 1408,
+  "model": "allenai/OLMo-1B-hf",
+  "dataset_label": "prolex",
+  "data": "ProLex_v1.0_test_oneword_exploded.csv"
+}

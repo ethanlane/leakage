@@ -1,0 +1,35 @@
+{
+  "old_file": "results/swords_olmo1b.csv",
+  "new_file": "results/prolex_olmo1b.csv",
+  "old": {
+    "n": 1322,
+    "mean_score": 4.434470726394077,
+    "median_score": 4.09375,
+    "std_score": 3.912890677501935,
+    "min_score": -8.75,
+    "max_score": 18.25,
+    "frac_positive": 0.869894099848714,
+    "positive_half_mean": 5.314822679602582,
+    "mean_orig_logp": -5.025267123454638,
+    "mean_sub_logp": -9.459737849848715,
+    "mean_orig_nll": 5.025267123454638,
+    "mean_sub_nll": 9.459737849848715
+  },
+  "new": {
+    "n": 1408,
+    "mean_score": 1.1275523792613635,
+    "median_score": 1.0625,
+    "std_score": 2.728075664912983,
+    "min_score": -10.70703125,
+    "max_score": 11.859375,
+    "frac_positive": 0.6683238636363636,
+    "positive_half_mean": 2.578585779755579,
+    "mean_orig_logp": -6.425867254083807,
+    "mean_sub_logp": -7.553419633345171,
+    "mean_orig_nll": 6.425867254083807,
+    "mean_sub_nll": 7.553419633345171
+  },
+  "difference_mean_old_minus_new": 3.3069183471327133,
+  "auc_old_higher_than_new": 0.7524481888667308,
+  "cohens_d_old_minus_new": 0.9858216709416285
+}

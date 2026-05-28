@@ -1,0 +1,23 @@
+{
+  "n": 1322,
+  "mean_score": 4.434470726394077,
+  "median_score": 4.09375,
+  "std_score": 3.912890677501935,
+  "min_score": -8.75,
+  "max_score": 18.25,
+  "frac_positive": 0.869894099848714,
+  "positive_half_mean": 5.314822679602582,
+  "mean_orig_logp": -5.025267123454638,
+  "mean_sub_logp": -9.459737849848715,
+  "mean_orig_nll": 5.025267123454638,
+  "mean_sub_nll": 9.459737849848715,
+  "skip_counts": {
+    "sub_not_one_token": 325,
+    "orig_not_one_token": 106
+  },
+  "input_rows": 1753,
+  "kept_rows": 1322,
+  "model": "allenai/OLMo-1B-hf",
+  "dataset_label": "swords",
+  "data": "swords_test_oneword_1753.csv"
+}
