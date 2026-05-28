@@ -1,0 +1,31 @@
+{
+  "old_file": "results/swords_olmo1b_context_avg.csv",
+  "new_file": "results/prolex_olmo1b_context_avg.csv",
+  "old": {
+    "n": 1322,
+    "mean_score": 0.14975534228441756,
+    "median_score": 0.109375,
+    "std_score": 0.16516422457118057,
+    "min_score": -0.25,
+    "max_score": 1.28125,
+    "frac_positive": 0.8706505295007564,
+    "positive_half_mean": 0.1763480125977411,
+    "mean_orig_context_nll": 3.682423647881997,
+    "mean_sub_context_nll": 3.8321789901664145
+  },
+  "new": {
+    "n": 1408,
+    "mean_score": 0.08369584517045454,
+    "median_score": 0.0625,
+    "std_score": 0.2044880816331084,
+    "min_score": -1.1875,
+    "max_score": 1.21875,
+    "frac_positive": 0.6590909090909091,
+    "positive_half_mean": 0.18381263469827586,
+    "mean_orig_context_nll": 3.8270929509943183,
+    "mean_sub_context_nll": 3.910788796164773
+  },
+  "difference_mean_old_minus_new": 0.06605949711396301,
+  "auc_old_higher_than_new": 0.6078000898260212,
+  "cohens_d_old_minus_new": 0.3542360876993015
+}

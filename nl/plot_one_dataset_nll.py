@@ -7,11 +7,16 @@ import matplotlib.pyplot as plt
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", required=True, help="Result CSV, e.g. results/swords_olmo1b.csv")
-    parser.add_argument("--out", required=True, help="Output plot path, e.g. plots/swords_nll.png")
+    parser.add_argument("--input", required=True, help="Result CSV")
+    parser.add_argument("--out", required=True, help="Output plot path")
     parser.add_argument("--title", default=None)
     parser.add_argument("--bins", type=int, default=50)
     parser.add_argument("--density", action="store_true", help="Plot density instead of raw counts")
+
+    parser.add_argument("--orig_col", default="orig_nll", help="Original NLL column")
+    parser.add_argument("--sub_col", default="sub_nll", help="Substitute NLL column")
+
+    parser.add_argument("--xlabel", default="NLL")
     parser.add_argument("--xmax", type=float, default=None, help="Optional max x-axis value")
     parser.add_argument("--xmin", type=float, default=None, help="Optional min x-axis value")
     parser.add_argument("--ymax", type=float, default=None, help="Optional max y-axis value")
@@ -20,13 +25,13 @@ def main():
 
     df = pd.read_csv(args.input)
 
-    required = ["orig_nll", "sub_nll"]
+    required = [args.orig_col, args.sub_col]
     for col in required:
         if col not in df.columns:
             raise ValueError(f"Missing column {col}. Existing columns: {list(df.columns)}")
 
-    orig = df["orig_nll"].dropna().astype(float)
-    sub = df["sub_nll"].dropna().astype(float)
+    orig = df[args.orig_col].dropna().astype(float)
+    sub = df[args.sub_col].dropna().astype(float)
 
     orig_mean = orig.mean()
     sub_mean = sub.mean()
@@ -67,13 +72,15 @@ def main():
 
     title = args.title if args.title else os.path.basename(args.input)
     plt.title(title)
-    plt.xlabel("NLL of target token")
+    plt.xlabel(args.xlabel)
     plt.ylabel("Density" if args.density else "Count")
 
     if args.xmin is not None or args.xmax is not None:
         plt.xlim(left=args.xmin, right=args.xmax)
+
     if args.ymin is not None or args.ymax is not None:
         plt.ylim(bottom=args.ymin, top=args.ymax)
+
     plt.legend()
     plt.tight_layout()
     plt.savefig(args.out, dpi=300)

@@ -1,0 +1,17 @@
+{
+  "n": 1322,
+  "mean_score": 0.14975534228441756,
+  "median_score": 0.109375,
+  "std_score": 0.16516422457118057,
+  "min_score": -0.25,
+  "max_score": 1.28125,
+  "frac_positive": 0.8706505295007564,
+  "positive_half_mean": 0.1763480125977411,
+  "mean_orig_context_nll": 3.682423647881997,
+  "mean_sub_context_nll": 3.8321789901664145,
+  "model": "allenai/OLMo-1B-hf",
+  "input": "results/swords_olmo1b.csv",
+  "output": "results/swords_olmo1b_context_avg.csv",
+  "orig_col": "sentence",
+  "sub_col": "changed_sentence"
+}

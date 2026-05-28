@@ -1,0 +1,17 @@
+{
+  "n": 1408,
+  "mean_score": 0.08369584517045454,
+  "median_score": 0.0625,
+  "std_score": 0.2044880816331084,
+  "min_score": -1.1875,
+  "max_score": 1.21875,
+  "frac_positive": 0.6590909090909091,
+  "positive_half_mean": 0.18381263469827586,
+  "mean_orig_context_nll": 3.8270929509943183,
+  "mean_sub_context_nll": 3.910788796164773,
+  "model": "allenai/OLMo-1B-hf",
+  "input": "results/prolex_olmo1b.csv",
+  "output": "results/prolex_olmo1b_context_avg.csv",
+  "orig_col": "sentence",
+  "sub_col": "changed_sentence"
+}
