@@ -1,0 +1,58 @@
+{
+  "dataset": "EleutherAI/hendrycks_math",
+  "splits": [
+    "train"
+  ],
+  "n_raw": 7500,
+  "n_filtered": 6088,
+  "n_sampled": 80,
+  "raw_type_counts": {
+    "algebra": 1744,
+    "counting_&_probability": 771,
+    "geometry": 870,
+    "intermediate_algebra": 1295,
+    "number_theory": 869,
+    "prealgebra": 1205,
+    "precalculus": 746
+  },
+  "filtered_type_counts": {
+    "algebra": 1540,
+    "counting_&_probability": 560,
+    "geometry": 485,
+    "intermediate_algebra": 1219,
+    "number_theory": 807,
+    "prealgebra": 840,
+    "precalculus": 637
+  },
+  "sampled_type_counts": {
+    "intermediate_algebra": 14,
+    "precalculus": 8,
+    "counting_&_probability": 8,
+    "prealgebra": 13,
+    "number_theory": 9,
+    "geometry": 9,
+    "algebra": 19
+  },
+  "target_quotas": {
+    "algebra": 19,
+    "counting_&_probability": 8,
+    "geometry": 9,
+    "intermediate_algebra": 14,
+    "number_theory": 9,
+    "prealgebra": 13,
+    "precalculus": 8
+  },
+  "skip_counts": {
+    "figure_or_diagram": 682,
+    "too_short": 280,
+    "too_long": 35,
+    "too_few_numeric_candidates": 415
+  },
+  "filters": {
+    "min_chars": 40,
+    "max_chars": 1600,
+    "exclude_figures": true,
+    "min_candidates_per_problem": 1,
+    "max_candidates_per_problem": 20
+  }
+}

@@ -1,0 +1,396 @@
+dataset,source_id,norm_category,raw_category,raw_problem_type,original_number,perturbed_number,changed_start,changed_end,orig_decoded_token,pert_decoded_token,local_context,original_problem,perturbed_problem,judge_label,judge_reason
+smt_2025,44,algebra,,['Algebra'],400,401,71,74,beans,beans,"Carolina has a jar of red, green, and white jelly beans. She replaces $400$ red beans with green ones, then $200$ green beans with white ones. Initially, ","Carolina has a jar of red, green, and white jelly beans. She replaces $400$ red beans with green ones, then $200$ green beans with white ones. Initially, the percentage of red beans minus the percentage of green beans was $X \%$. After the replacements, this difference became $(X-2.5) \%$. Compute the number of beans in the jar.","Carolina has a jar of red, green, and white jelly beans. She replaces $401$ red beans with green ones, then $200$ green beans with white ones. Initially, the percentage of red beans minus the percentage of green beans was $X \%$. After the replacements, this difference became $(X-2.5) \%$. Compute the number of beans in the jar.",,
+smt_2025,23,geometry,,['Geometry'],2,3,57,58,}$,}$,"Let $\Omega$ be a circle. Draw two radii $r_{1}$ and $r_{2}$ of $\Omega$ that form a $40^{\circ}$ angle, and let $\omega$ be a circle whic","Let $\Omega$ be a circle. Draw two radii $r_{1}$ and $r_{2}$ of $\Omega$ that form a $40^{\circ}$ angle, and let $\omega$ be a circle which is tangent to both of these radii and internally tangent to $\Omega$. Let $\omega$ be tangent to $\Omega$ and $r_{1}$ at $A$ and $B$, respectively, and let $r_{1}$ meet $\Omega$ at $C$. Compute $\angle A B C$.
+","Let $\Omega$ be a circle. Draw two radii $r_{1}$ and $r_{3}$ of $\Omega$ that form a $40^{\circ}$ angle, and let $\omega$ be a circle which is tangent to both of these radii and internally tangent to $\Omega$. Let $\omega$ be tangent to $\Omega$ and $r_{1}$ at $A$ and $B$, respectively, and let $r_{1}$ meet $\Omega$ at $C$. Compute $\angle A B C$.
+",,
+smt_2025,48,algebra,,['Algebra'],8,9,64,65,^{,^{,"Given real numbers $s, m$, and $t$ such that $s^{2}+m^{2}+t^{2}=8, s^{3}+m^{3}+t^{3}=11$, and $s^{4}+m^{4}+t^{4}=25$, compute the value of $(s+m+","Given real numbers $s, m$, and $t$ such that $s^{2}+m^{2}+t^{2}=8, s^{3}+m^{3}+t^{3}=11$, and $s^{4}+m^{4}+t^{4}=25$, compute the value of $(s+m+t)(s+m-t)(s-m+t)(s-m-t)$.","Given real numbers $s, m$, and $t$ such that $s^{2}+m^{2}+t^{2}=9, s^{3}+m^{3}+t^{3}=11$, and $s^{4}+m^{4}+t^{4}=25$, compute the value of $(s+m+t)(s+m-t)(s-m+t)(s-m-t)$.",,
+smt_2024,51,counting_and_probability,Discrete,[],2,3,86,87,a,a,"is playing with magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 4 , 5 , 6 , 7 , in that order in a row , and she also has two magnets wit","Alice is playing with magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 4 , 5 , 6 , 7 , in that order in a row , and she also has two magnets with a "" + "" sign, two magnets with a "" − "" sign, and two magnets with a "" × "" sign. She randomly puts these six operation magnets between her 7 number magnets, with one operation between every two consecutive numbers, and evaluates the resulting expression (following the order of operations). What is the expected value of her result?","Alice is playing with magnets on her fridge . She has 7 magnets, with the numbers 1 , 3 , 3 , 4 , 5 , 6 , 7 , in that order in a row , and she also has two magnets with a "" + "" sign, two magnets with a "" − "" sign, and two magnets with a "" × "" sign. She randomly puts these six operation magnets between her 7 number magnets, with one operation between every two consecutive numbers, and evaluates the resulting expression (following the order of operations). What is the expected value of her result?",,
+smt_2025,31,counting_and_probability,,['Combinatorics'],15,16,24,26,ake,ake,"The Stanford Tree buys $15$ eggs to bake a cake. Unfortunately, $n$ of these eggs are stale and one additi","The Stanford Tree buys $15$ eggs to bake a cake. Unfortunately, $n$ of these eggs are stale and one additional egg is rotten. The recipe requires the Tree to choose $3$ eggs from the lot. A combination is called bad if it contains at least one stale egg and no rotten eggs and awful if it contains the rotten egg (even if no other eggs are stale). Let $x$ denote the number of bad combinations and $y$ denote the number of awful combinations. Given that the ratio of $x$ to $y$ is $40: 13$, compute $n$.","The Stanford Tree buys $16$ eggs to bake a cake. Unfortunately, $n$ of these eggs are stale and one additional egg is rotten. The recipe requires the Tree to choose $3$ eggs from the lot. A combination is called bad if it contains at least one stale egg and no rotten eggs and awful if it contains the rotten egg (even if no other eggs are stale). Let $x$ denote the number of bad combinations and $y$ denote the number of awful combinations. Given that the ratio of $x$ to $y$ is $40: 13$, compute $n$.",,
+smt_2025,4,reject_calculus_no_clean_hendricks_match,,['Algebra'],6,7,58,59,x,x,"Let $f$ be a continuous function satisfying $f\left(x^{7}+6 x^{5}+3 x^{3}+1\right)=9 x+5$ for all reals $x$. Compute the integral
+
+$$
+\int_","Let $f$ be a continuous function satisfying $f\left(x^{7}+6 x^{5}+3 x^{3}+1\right)=9 x+5$ for all reals $x$. Compute the integral
+
+$$
+\int_{-9}^{11} f(x) \mathrm{d} x .
+$$
+","Let $f$ be a continuous function satisfying $f\left(x^{7}+7 x^{5}+3 x^{3}+1\right)=9 x+5$ for all reals $x$. Compute the integral
+
+$$
+\int_{-9}^{11} f(x) \mathrm{d} x .
+$$
+",,
+smt_2025,11,geometry,,['Combinatorics'],5,6,67,68,actly,actly,"The boxes in the expression below are filled with the numbers $3,4,5,6$, and $7$, so that each number is used exactly once, and the value of the exp","The boxes in the expression below are filled with the numbers $3,4,5,6$, and $7$, so that each number is used exactly once, and the value of the expression is a prime number. Compute the value of the expression.
+
+$$
+\square \times \square \times \square+\square \times \square
+$$
+","The boxes in the expression below are filled with the numbers $3,4,6,6$, and $7$, so that each number is used exactly once, and the value of the expression is a prime number. Compute the value of the expression.
+
+$$
+\square \times \square \times \square+\square \times \square
+$$
+",,
+smt_2025,4,reject_calculus_no_clean_hendricks_match,,['Algebra'],7,8,55,56,)=,)=,"Let $f$ be a continuous function satisfying $f\left(x^{7}+6 x^{5}+3 x^{3}+1\right)=9 x+5$ for all reals $x$. Compute the integral
+
+$$
+\i","Let $f$ be a continuous function satisfying $f\left(x^{7}+6 x^{5}+3 x^{3}+1\right)=9 x+5$ for all reals $x$. Compute the integral
+
+$$
+\int_{-9}^{11} f(x) \mathrm{d} x .
+$$
+","Let $f$ be a continuous function satisfying $f\left(x^{8}+6 x^{5}+3 x^{3}+1\right)=9 x+5$ for all reals $x$. Compute the integral
+
+$$
+\int_{-9}^{11} f(x) \mathrm{d} x .
+$$
+",,
+smt_2025,29,geometry,,['Geometry'],10,11,60,62,point,point,Let $A B C D$ be a square centered at $E$ with side length $10$. Point $P$ lies on the extension of line $C D$ past point $D$. There exists a ,"Let $A B C D$ be a square centered at $E$ with side length $10$. Point $P$ lies on the extension of line $C D$ past point $D$. There exists a point $Q$ on line $A P$ such that lines $E Q, B P$, and $A D$ are concurrent. If $E Q=7 \sqrt{2}$, compute $|A Q-D Q|$.","Let $A B C D$ be a square centered at $E$ with side length $11$. Point $P$ lies on the extension of line $C D$ past point $D$. There exists a point $Q$ on line $A P$ such that lines $E Q, B P$, and $A D$ are concurrent. If $E Q=7 \sqrt{2}$, compute $|A Q-D Q|$.",,
+smt_2025,51,algebra,,['Algebra'],5,6,94,95,_{,_{," set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[","Let $Z$ be the set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[0,2 \pi)$ that $z$ makes with the positive real axis, measured counterclockwise) lying in the interval $[0, \pi)$. Compute the sum of all distinct values of $\theta_{z}$ for $z$ in $Z$. Compute the answer in radians.","Let $Z$ be the set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{6}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[0,2 \pi)$ that $z$ makes with the positive real axis, measured counterclockwise) lying in the interval $[0, \pi)$. Compute the sum of all distinct values of $\theta_{z}$ for $z$ in $Z$. Compute the answer in radians.",,
+smt_2025,20,geometry,,['Combinatorics'],2,3,240,241,ethe,ethe,"quares $s_{1}$; one is chosen out of these four uniformly at random. Choose $s_{2}$ in the same manner (so that it has a side which is a diagonal of $s_{1}$ ), a","Let $s_{0}$ be a square. One diagonal of $s_{0}$ is chosen, and a square $s_{1}$ is drawn with this diagonal as one of its sides. There are four possible such squares $s_{1}$; one is chosen out of these four uniformly at random. Choose $s_{2}$ in the same manner (so that it has a side which is a diagonal of $s_{1}$ ), and continue similarly with $s_{3}, s_{4}, \ldots$. Let $p\left(s_{n}\right)$ be the probability that square $s_{n}$ shares an interior with $s_{0}$ (in other words, the area of their intersection is positive). Compute the value that $p\left(s_{n}\right)$ approaches as $n$ approaches infinity.","Let $s_{0}$ be a square. One diagonal of $s_{0}$ is chosen, and a square $s_{1}$ is drawn with this diagonal as one of its sides. There are four possible such squares $s_{1}$; one is chosen out of these four uniformly at random. Choose $s_{3}$ in the same manner (so that it has a side which is a diagonal of $s_{1}$ ), and continue similarly with $s_{3}, s_{4}, \ldots$. Let $p\left(s_{n}\right)$ be the probability that square $s_{n}$ shares an interior with $s_{0}$ (in other words, the area of their intersection is positive). Compute the value that $p\left(s_{n}\right)$ approaches as $n$ approaches infinity.",,
+smt_2025,47,algebra,,['Algebra'],44,45,92,94,with,with,sum of the real roots of $\left(x^{2}+16 x+48\right)\left(x^{2}+24 x+128\right)=44^{2^{2025}}$. (Roots are counted with multiplicity.),Compute the sum of the real roots of $\left(x^{2}+16 x+48\right)\left(x^{2}+24 x+128\right)=44^{2^{2025}}$. (Roots are counted with multiplicity.),Compute the sum of the real roots of $\left(x^{2}+16 x+48\right)\left(x^{2}+24 x+128\right)=45^{2^{2025}}$. (Roots are counted with multiplicity.),,
+smt_2024,37,counting_and_probability,General,[],5,6,77,78,acho,acho,"Nacho is building a sandcastle . Each time he adds a scoop of sand, he has a 5 6 chance that the sandcastle will increase by 1 inch in height. Nacho is a clum","Nacho is building a sandcastle . Each time he adds a scoop of sand, he has a 5 6 chance that the sandcastle will increase by 1 inch in height. Nacho is a clumsy engineer , so each time the height doesn’t increase , the sandcastle topples and loses 1 3 of its current height. Suppose Nacho starts his sandcastle at height H . What H should he choose so that after any number of scoops, the expected height of his sandcastle is still H ?","Nacho is building a sandcastle . Each time he adds a scoop of sand, he has a 6 6 chance that the sandcastle will increase by 1 inch in height. Nacho is a clumsy engineer , so each time the height doesn’t increase , the sandcastle topples and loses 1 3 of its current height. Suppose Nacho starts his sandcastle at height H . What H should he choose so that after any number of scoops, the expected height of his sandcastle is still H ?",,
+smt_2024,51,counting_and_probability,Discrete,[],6,7,102,103,",and",",and","magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 4 , 5 , 6 , 7 , in that order in a row , and she also has two magnets with a "" + "" sign, ","Alice is playing with magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 4 , 5 , 6 , 7 , in that order in a row , and she also has two magnets with a "" + "" sign, two magnets with a "" − "" sign, and two magnets with a "" × "" sign. She randomly puts these six operation magnets between her 7 number magnets, with one operation between every two consecutive numbers, and evaluates the resulting expression (following the order of operations). What is the expected value of her result?","Alice is playing with magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 4 , 5 , 7 , 7 , in that order in a row , and she also has two magnets with a "" + "" sign, two magnets with a "" − "" sign, and two magnets with a "" × "" sign. She randomly puts these six operation magnets between her 7 number magnets, with one operation between every two consecutive numbers, and evaluates the resulting expression (following the order of operations). What is the expected value of her result?",,
+smt_2024,33,unknown_general_or_guts,General,[],5,6,79,80,can,can,"Jana is decorating her room by hanging zero or more strings of lights. She has 5 collinear attachment points ( A, B, C, D , and E), and she can connect any two ","Jana is decorating her room by hanging zero or more strings of lights. She has 5 collinear attachment points ( A, B, C, D , and E), and she can connect any two attachment points with a semicircular string of lights ( direction hanging downward), as long as no two strings cross. In how many different patterns can she hang the lights?","Jana is decorating her room by hanging zero or more strings of lights. She has 6 collinear attachment points ( A, B, C, D , and E), and she can connect any two attachment points with a semicircular string of lights ( direction hanging downward), as long as no two strings cross. In how many different patterns can she hang the lights?",,
+smt_2024,51,counting_and_probability,Discrete,[],5,6,98,99,"""""","""""","ith magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 4 , 5 , 6 , 7 , in that order in a row , and she also has two magnets with a "" + "" si","Alice is playing with magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 4 , 5 , 6 , 7 , in that order in a row , and she also has two magnets with a "" + "" sign, two magnets with a "" − "" sign, and two magnets with a "" × "" sign. She randomly puts these six operation magnets between her 7 number magnets, with one operation between every two consecutive numbers, and evaluates the resulting expression (following the order of operations). What is the expected value of her result?","Alice is playing with magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 4 , 6 , 6 , 7 , in that order in a row , and she also has two magnets with a "" + "" sign, two magnets with a "" − "" sign, and two magnets with a "" × "" sign. She randomly puts these six operation magnets between her 7 number magnets, with one operation between every two consecutive numbers, and evaluates the resulting expression (following the order of operations). What is the expected value of her result?",,
+smt_2025,11,geometry,,['Combinatorics'],3,4,63,64,used,used,"The boxes in the expression below are filled with the numbers $3,4,5,6$, and $7$, so that each number is used exactly once, and the value of the","The boxes in the expression below are filled with the numbers $3,4,5,6$, and $7$, so that each number is used exactly once, and the value of the expression is a prime number. Compute the value of the expression.
+
+$$
+\square \times \square \times \square+\square \times \square
+$$
+","The boxes in the expression below are filled with the numbers $4,4,5,6$, and $7$, so that each number is used exactly once, and the value of the expression is a prime number. Compute the value of the expression.
+
+$$
+\square \times \square \times \square+\square \times \square
+$$
+",,
+smt_2025,11,geometry,,['Combinatorics'],6,7,69,70,actly,actly,"The boxes in the expression below are filled with the numbers $3,4,5,6$, and $7$, so that each number is used exactly once, and the value of the expre","The boxes in the expression below are filled with the numbers $3,4,5,6$, and $7$, so that each number is used exactly once, and the value of the expression is a prime number. Compute the value of the expression.
+
+$$
+\square \times \square \times \square+\square \times \square
+$$
+","The boxes in the expression below are filled with the numbers $3,4,5,7$, and $7$, so that each number is used exactly once, and the value of the expression is a prime number. Compute the value of the expression.
+
+$$
+\square \times \square \times \square+\square \times \square
+$$
+",,
+smt_2024,55,counting_and_probability,Discrete,[],2,3,10,11,staking,staking,"There are 2 n students taking an exam, and at the beginning they all put their phones into ","There are 2 n students taking an exam, and at the beginning they all put their phones into a pile . When leaving, each person takes an arbitrary phone from the pile . Unfortunately , it might be the case that some students did not get back their own phone! To get back the correct phones, the students come up with the following strategy . They repeat the following round as many times as needed:","There are 3 n students taking an exam, and at the beginning they all put their phones into a pile . When leaving, each person takes an arbitrary phone from the pile . Unfortunately , it might be the case that some students did not get back their own phone! To get back the correct phones, the students come up with the following strategy . They repeat the following round as many times as needed:",,
+smt_2025,53,algebra,,['Algebra'],6,7,22,23,(x,(x,"Let $f(x)=4 x+a, g(x)=6 x+b$, and $h(x)=9 x+c$. Let $S(a, b, c)$ be the set of the $3^{20}$ functions f","Let $f(x)=4 x+a, g(x)=6 x+b$, and $h(x)=9 x+c$. Let $S(a, b, c)$ be the set of the $3^{20}$ functions formed by all possible compositions of $f, g, h$ a total of $20$ times, and let $R(a, b, c)$ be the number of distinct roots over all functions in $S(a, b, c)$. Compute the second smallest possible value of $R(a, b, c)$ as $a, b, c$ range over all reals.","Let $f(x)=4 x+a, g(x)=7 x+b$, and $h(x)=9 x+c$. Let $S(a, b, c)$ be the set of the $3^{20}$ functions formed by all possible compositions of $f, g, h$ a total of $20$ times, and let $R(a, b, c)$ be the number of distinct roots over all functions in $S(a, b, c)$. Compute the second smallest possible value of $R(a, b, c)$ as $a, b, c$ range over all reals.",,
+smt_2024,4,algebra,Algebra,[],7,8,36,37,cdot,cdot,Compute 5 1 \cdot 2 \cdot 3 \cdot 4+7 2 \cdot 3 \cdot 4 \cdot 5+ … +99 48 \cdot 49 \cdot 50 \cdot 51.,Compute 5 1 \cdot 2 \cdot 3 \cdot 4+7 2 \cdot 3 \cdot 4 \cdot 5+ … +99 48 \cdot 49 \cdot 50 \cdot 51.,Compute 5 1 \cdot 2 \cdot 3 \cdot 4+8 2 \cdot 3 \cdot 4 \cdot 5+ … +99 48 \cdot 49 \cdot 50 \cdot 51.,,
+smt_2025,51,algebra,,['Algebra'],6,7,82,83,olar,olar,"t $Z$ be the set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the","Let $Z$ be the set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[0,2 \pi)$ that $z$ makes with the positive real axis, measured counterclockwise) lying in the interval $[0, \pi)$. Compute the sum of all distinct values of $\theta_{z}$ for $z$ in $Z$. Compute the answer in radians.","Let $Z$ be the set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{7}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[0,2 \pi)$ that $z$ makes with the positive real axis, measured counterclockwise) lying in the interval $[0, \pi)$. Compute the sum of all distinct values of $\theta_{z}$ for $z$ in $Z$. Compute the answer in radians.",,
+smt_2024,14,reject_calculus_no_clean_hendricks_match,Calculus,[],6,7,241,242,ouch,ouch,"ne) is attached to the bottom ladder at ( 2 , 2 ) and touches the wall at ( 0 , 6 ) . This pair of ladders begins to slide down the wall, such that the top ladde","Consider the pair of ladders shown in the below image . The bottom ladder ( dashed line) connects the points ( 0 , 4 ) and ( 4 , 0 ) . The top ladder ( dotted line) is attached to the bottom ladder at ( 2 , 2 ) and touches the wall at ( 0 , 6 ) . This pair of ladders begins to slide down the wall, such that the top ladder remains attached to the midpoint of the bottom ladder . When the bottom ladder touches the wall at the point ( 0 , 2 ) , the end at which it touches the wall is moving downward at the rate of 2 units per second. At that point in time , what is the rate at which the wall end of the top ladder is moving downward, in units per second?","Consider the pair of ladders shown in the below image . The bottom ladder ( dashed line) connects the points ( 0 , 4 ) and ( 4 , 0 ) . The top ladder ( dotted line) is attached to the bottom ladder at ( 2 , 2 ) and touches the wall at ( 0 , 7 ) . This pair of ladders begins to slide down the wall, such that the top ladder remains attached to the midpoint of the bottom ladder . When the bottom ladder touches the wall at the point ( 0 , 2 ) , the end at which it touches the wall is moving downward at the rate of 2 units per second. At that point in time , what is the rate at which the wall end of the top ladder is moving downward, in units per second?",,
+smt_2025,42,unknown_general_or_guts,,['Combinatorics'],3,4,83,84,Not,Not," $S$ be the set of all strings of length $15$ formed from five $1$s, $2$s, and $3$s. Say a string in $S$ is threnodic if:
+
+\begin{itemize}
+\item No two adjacent ","Let $S$ be the set of all strings of length $15$ formed from five $1$s, $2$s, and $3$s. Say a string in $S$ is threnodic if:
+
+\begin{itemize}
+\item No two adjacent characters are the same, and
+\item Through a sequence of removals of contiguous substrings $123,231$, and $312$, the string can be deleted (note that the intermediate strings can have adjacent equal characters).
+\end{itemize}
+
+Compute the number of threnodic strings in $S$.","Let $S$ be the set of all strings of length $15$ formed from five $1$s, $2$s, and $4$s. Say a string in $S$ is threnodic if:
+
+\begin{itemize}
+\item No two adjacent characters are the same, and
+\item Through a sequence of removals of contiguous substrings $123,231$, and $312$, the string can be deleted (note that the intermediate strings can have adjacent equal characters).
+\end{itemize}
+
+Compute the number of threnodic strings in $S$.",,
+smt_2025,33,geometry,,['Geometry'],5,6,38,39,hat,hat,"Alice has four sticks of lengths $3,3,5$, and $x$. She notices that it is possible to make a cyclic quadrilateral by jo","Alice has four sticks of lengths $3,3,5$, and $x$. She notices that it is possible to make a cyclic quadrilateral by joining these sticks at their endpoints, and no matter how she makes this cyclic quadrilateral, it always has a diagonal of length $6$. Compute $x$.","Alice has four sticks of lengths $3,3,6$, and $x$. She notices that it is possible to make a cyclic quadrilateral by joining these sticks at their endpoints, and no matter how she makes this cyclic quadrilateral, it always has a diagonal of length $6$. Compute $x$.",,
+smt_2024,70,number_theory,Guts,[],32,33,150,152,that,that,"… p_{a_k} k , we let f ( n ) = \sumk i = 1pi ai . For example , since 9 0 = 21· 32· 51, we have f ( 9 0 ) = 2 · 1 + 3 · 2 + 5 · 1 = 1 3 . Let m be the minimum val","For any integer n \geq 2 , with prime factorization n = p_a1 1 pa^2 2 … p_{a_k} k , we let f ( n ) = \sumk i = 1pi ai . For example , since 9 0 = 21· 32· 51, we have f ( 9 0 ) = 2 · 1 + 3 · 2 + 5 · 1 = 1 3 . Let m be the minimum value that f ( n ) can take on for all integers n > 2024 . Find the smallest integer k \geq 2 such that f ( k ) = m .","For any integer n \geq 2 , with prime factorization n = p_a1 1 pa^2 2 … p_{a_k} k , we let f ( n ) = \sumk i = 1pi ai . For example , since 9 0 = 21· 33· 51, we have f ( 9 0 ) = 2 · 1 + 3 · 2 + 5 · 1 = 1 3 . Let m be the minimum value that f ( n ) can take on for all integers n > 2024 . Find the smallest integer k \geq 2 such that f ( k ) = m .",,
+smt_2024,75,geometry,Guts,[],7,8,62,63,by,by,Consider cutting the ellipse y2+x^2/9= 1 by the line y =\sqrt{7} x + 4 . What is the largest area bounded by the ellipse and the line?,Consider cutting the ellipse y2+x^2/9= 1 by the line y =\sqrt{7} x + 4 . What is the largest area bounded by the ellipse and the line?,Consider cutting the ellipse y2+x^2/9= 1 by the line y =\sqrt{8} x + 4 . What is the largest area bounded by the ellipse and the line?,,
+smt_2024,76,unknown_general_or_guts,Guts,[],8,9,22,23,below,below,Consider the 4 \times 8 grid of points below that represents the Stanford campus. Stanford has develope,"Consider the 4 \times 8 grid of points below that represents the Stanford campus. Stanford has developed a way to teleport Main Quad (represented by the rectangle on the lattice) anywhere on campus such that 4 points are contained within the rectangle and none of these points are dorms (the dimensions of Main Quad remain the same as in the figure). The bottom-left and top-right corners of the grid are dorms. St anford Ma th Tournament Guts April 13, 2024 Abby wants to bike from Schiff to Lantana, but does not want to pass through any points in Main Quad. If Abby only moves from one lattice point to another in the up and right directions ( and Main Quad does not move as she bikes), compute the sum of the number of paths she can take for all possible positions of Main Quad.","Consider the 4 \times 9 grid of points below that represents the Stanford campus. Stanford has developed a way to teleport Main Quad (represented by the rectangle on the lattice) anywhere on campus such that 4 points are contained within the rectangle and none of these points are dorms (the dimensions of Main Quad remain the same as in the figure). The bottom-left and top-right corners of the grid are dorms. St anford Ma th Tournament Guts April 13, 2024 Abby wants to bike from Schiff to Lantana, but does not want to pass through any points in Main Quad. If Abby only moves from one lattice point to another in the up and right directions ( and Main Quad does not move as she bikes), compute the sum of the number of paths she can take for all possible positions of Main Quad.",,
+smt_2025,31,counting_and_probability,,['Combinatorics'],3,4,166,167,if,if,stale and one additional egg is rotten. The recipe requires the Tree to choose $3$ eggs from the lot. A combination is called bad if it contains at least one sta,"The Stanford Tree buys $15$ eggs to bake a cake. Unfortunately, $n$ of these eggs are stale and one additional egg is rotten. The recipe requires the Tree to choose $3$ eggs from the lot. A combination is called bad if it contains at least one stale egg and no rotten eggs and awful if it contains the rotten egg (even if no other eggs are stale). Let $x$ denote the number of bad combinations and $y$ denote the number of awful combinations. Given that the ratio of $x$ to $y$ is $40: 13$, compute $n$.","The Stanford Tree buys $15$ eggs to bake a cake. Unfortunately, $n$ of these eggs are stale and one additional egg is rotten. The recipe requires the Tree to choose $4$ eggs from the lot. A combination is called bad if it contains at least one stale egg and no rotten eggs and awful if it contains the rotten egg (even if no other eggs are stale). Let $x$ denote the number of bad combinations and $y$ denote the number of awful combinations. Given that the ratio of $x$ to $y$ is $40: 13$, compute $n$.",,
+smt_2025,51,algebra,,['Algebra'],3,4,106,107,in,in,"complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[0,2 \pi)$ th","Let $Z$ be the set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[0,2 \pi)$ that $z$ makes with the positive real axis, measured counterclockwise) lying in the interval $[0, \pi)$. Compute the sum of all distinct values of $\theta_{z}$ for $z$ in $Z$. Compute the answer in radians.","Let $Z$ be the set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{5}+(1-i) z^{4}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[0,2 \pi)$ that $z$ makes with the positive real axis, measured counterclockwise) lying in the interval $[0, \pi)$. Compute the sum of all distinct values of $\theta_{z}$ for $z$ in $Z$. Compute the answer in radians.",,
+smt_2025,27,geometry,,['Geometry'],5,6,270,271,_{,_{,"_{i} A_{i} C_{i}=30^{\circ}$ for $1 \leq i \leq 3$, where $A_{4}=A_{1}$ and $A_{5}=A_{2}$. For $1 \leq i \leq 3$, let $D_{i}$ be the intersection of $\overline{A","Triangle $\triangle A_{1} A_{2} A_{3}$ has side lengths $A_{1} A_{2}=13$, $A_{2} A_{3}=14, A_{3} A_{1}=15$. Points $B_{i}$ and $C_{i}$ lie on $\overline{A_{i+1} A_{i+2}}$ such that $\angle B_{i} A_{i} C_{i}=30^{\circ}$ for $1 \leq i \leq 3$, where $A_{4}=A_{1}$ and $A_{5}=A_{2}$. For $1 \leq i \leq 3$, let $D_{i}$ be the intersection of $\overline{A_{i} B_{i}}$ and $\overline{A_{i+1} C_{i+1}}$ and $E_{i}$ the intersection of $\overline{A_{i} C_{i}}$ and $\overline{A_{i+1} B_{i+1}}$, where $A_{4}=$ $A_{1}, B_{4}=B_{1}, C_{4}=C_{1}$. If $D_{1} E_{3} D_{2} E_{1} D_{3} E_{2}$ forms a convex hexagon with an inscribed circle of radius $r$, compute $r$.","Triangle $\triangle A_{1} A_{2} A_{3}$ has side lengths $A_{1} A_{2}=13$, $A_{2} A_{3}=14, A_{3} A_{1}=15$. Points $B_{i}$ and $C_{i}$ lie on $\overline{A_{i+1} A_{i+2}}$ such that $\angle B_{i} A_{i} C_{i}=30^{\circ}$ for $1 \leq i \leq 3$, where $A_{4}=A_{1}$ and $A_{6}=A_{2}$. For $1 \leq i \leq 3$, let $D_{i}$ be the intersection of $\overline{A_{i} B_{i}}$ and $\overline{A_{i+1} C_{i+1}}$ and $E_{i}$ the intersection of $\overline{A_{i} C_{i}}$ and $\overline{A_{i+1} B_{i+1}}$, where $A_{4}=$ $A_{1}, B_{4}=B_{1}, C_{4}=C_{1}$. If $D_{1} E_{3} D_{2} E_{1} D_{3} E_{2}$ forms a convex hexagon with an inscribed circle of radius $r$, compute $r$.",,
+smt_2024,80,counting_and_probability,Guts,[],15,16,24,26,where,where,"Frank composes a random 15-note melody where each note is either A, B, or C. What is the probability that ","Frank composes a random 15-note melody where each note is either A, B, or C. What is the probability that no sequence of 5 consecutive notes occurs more than once in the melody he composes? (For example , in the melody ABCABCABCABCABC the sequence ABCAB occurs more than once .) For an estimate of E , you will get max ( 0 , 2 5 − \lceil 5 0 0 | E − X | \rceil ) points, where X is the true answer .","Frank composes a random 16-note melody where each note is either A, B, or C. What is the probability that no sequence of 5 consecutive notes occurs more than once in the melody he composes? (For example , in the melody ABCABCABCABCABC the sequence ABCAB occurs more than once .) For an estimate of E , you will get max ( 0 , 2 5 − \lceil 5 0 0 | E − X | \rceil ) points, where X is the true answer .",,
+smt_2025,11,geometry,,['Combinatorics'],4,5,65,66,ex,ex,"The boxes in the expression below are filled with the numbers $3,4,5,6$, and $7$, so that each number is used exactly once, and the value of the e","The boxes in the expression below are filled with the numbers $3,4,5,6$, and $7$, so that each number is used exactly once, and the value of the expression is a prime number. Compute the value of the expression.
+
+$$
+\square \times \square \times \square+\square \times \square
+$$
+","The boxes in the expression below are filled with the numbers $3,5,5,6$, and $7$, so that each number is used exactly once, and the value of the expression is a prime number. Compute the value of the expression.
+
+$$
+\square \times \square \times \square+\square \times \square
+$$
+",,
+smt_2025,51,algebra,,['Algebra'],8,9,74,75,with,with,"Let $Z$ be the set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{","Let $Z$ be the set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[0,2 \pi)$ that $z$ makes with the positive real axis, measured counterclockwise) lying in the interval $[0, \pi)$. Compute the sum of all distinct values of $\theta_{z}$ for $z$ in $Z$. Compute the answer in radians.","Let $Z$ be the set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{9}+i z^{6}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[0,2 \pi)$ that $z$ makes with the positive real axis, measured counterclockwise) lying in the interval $[0, \pi)$. Compute the sum of all distinct values of $\theta_{z}$ for $z$ in $Z$. Compute the answer in radians.",,
+smt_2025,41,geometry,,['Combinatorics'],2,3,129,130,oreach,oreach,"the complex plane, with lamp $k$ (for $0 \leq k \leq 12$ ) located at $z_{k}=e^{2 \pi i k / 13}$. Lamp $0$ is always on, while lamps $1$ to $12$ are initially tu","There are thirteen lamps arranged in a circle in the complex plane, with lamp $k$ (for $0 \leq k \leq 12$ ) located at $z_{k}=e^{2 \pi i k / 13}$. Lamp $0$ is always on, while lamps $1$ to $12$ are initially turned off. For each $1 \leq r \leq 12$, toggling lamp $r$ will flip it from on to off (and vice versa) and will also flip its
+neighbors, excluding lamp $0$ if it is a neighbor. Let $s$ be the sum of the positions $z_{k}$ for lamps which are on. Compute the maximum possible value of $|s|$ over all configurations of switched on lamps reachable by flipping some subset of lamps from the initial state.","There are thirteen lamps arranged in a circle in the complex plane, with lamp $k$ (for $0 \leq k \leq 12$ ) located at $z_{k}=e^{3 \pi i k / 13}$. Lamp $0$ is always on, while lamps $1$ to $12$ are initially turned off. For each $1 \leq r \leq 12$, toggling lamp $r$ will flip it from on to off (and vice versa) and will also flip its
+neighbors, excluding lamp $0$ if it is a neighbor. Let $s$ be the sum of the positions $z_{k}$ for lamps which are on. Compute the maximum possible value of $|s|$ over all configurations of switched on lamps reachable by flipping some subset of lamps from the initial state.",,
+smt_2025,20,geometry,,['Combinatorics'],4,5,359,360,$,$,"a side which is a diagonal of $s_{1}$ ), and continue similarly with $s_{3}, s_{4}, \ldots$. Let $p\left(s_{n}\right)$ be the probability that square $s_{n}$ sha","Let $s_{0}$ be a square. One diagonal of $s_{0}$ is chosen, and a square $s_{1}$ is drawn with this diagonal as one of its sides. There are four possible such squares $s_{1}$; one is chosen out of these four uniformly at random. Choose $s_{2}$ in the same manner (so that it has a side which is a diagonal of $s_{1}$ ), and continue similarly with $s_{3}, s_{4}, \ldots$. Let $p\left(s_{n}\right)$ be the probability that square $s_{n}$ shares an interior with $s_{0}$ (in other words, the area of their intersection is positive). Compute the value that $p\left(s_{n}\right)$ approaches as $n$ approaches infinity.","Let $s_{0}$ be a square. One diagonal of $s_{0}$ is chosen, and a square $s_{1}$ is drawn with this diagonal as one of its sides. There are four possible such squares $s_{1}$; one is chosen out of these four uniformly at random. Choose $s_{2}$ in the same manner (so that it has a side which is a diagonal of $s_{1}$ ), and continue similarly with $s_{3}, s_{5}, \ldots$. Let $p\left(s_{n}\right)$ be the probability that square $s_{n}$ shares an interior with $s_{0}$ (in other words, the area of their intersection is positive). Compute the value that $p\left(s_{n}\right)$ approaches as $n$ approaches infinity.",,
+smt_2025,50,number_theory,,['Algebra'],4,5,203,204,prod,prod,"$S=\left\{2^{F_{2}}, 2^{F_{3}}, \ldots, 2^{F_{27}}, 2^{F_{28}}\right\}=\left\{2,4, \ldots, 2^{196418}, 2^{317811}\right\}$ be a set. If
+
+$$
+P=\prod_{x \in S} \pr","The Fibonacci numbers are defined by $F_{1}=F_{2}=1$ and $F_{n}=F_{n-1}+F_{n-2}$ for all positive integers $n \geq 3$. Let $S=\left\{2^{F_{2}}, 2^{F_{3}}, \ldots, 2^{F_{27}}, 2^{F_{28}}\right\}=\left\{2,4, \ldots, 2^{196418}, 2^{317811}\right\}$ be a set. If
+
+$$
+P=\prod_{x \in S} \prod_{y \in S} x^{\log_{3} y}
+$$
+is the product of $x^{\log_{3} y}$ across all ordered pairs of elements ( $x, y$ ) in $S$, including when $x=y$, compute $\sqrt{\log_{2} P}$.","The Fibonacci numbers are defined by $F_{1}=F_{2}=1$ and $F_{n}=F_{n-1}+F_{n-2}$ for all positive integers $n \geq 3$. Let $S=\left\{2^{F_{2}}, 2^{F_{3}}, \ldots, 2^{F_{27}}, 2^{F_{28}}\right\}=\left\{2,5, \ldots, 2^{196418}, 2^{317811}\right\}$ be a set. If
+
+$$
+P=\prod_{x \in S} \prod_{y \in S} x^{\log_{3} y}
+$$
+is the product of $x^{\log_{3} y}$ across all ordered pairs of elements ( $x, y$ ) in $S$, including when $x=y$, compute $\sqrt{\log_{2} P}$.",,
+smt_2024,90,geometry,Geometry,[],4,5,63,64,such,such,Points A and B lie on a circle centered at O such that A B = 1 4 . The perpendicular bisector of A B intersects \odot O at point C such that O l,Points A and B lie on a circle centered at O such that A B = 1 4 . The perpendicular bisector of A B intersects \odot O at point C such that O lies in the interior of \triangle A B C and A C = 35\sqrt{2} . Lines B O and A C intersect at point D . Compute the ratio of the area of \triangle D O C to the area of \triangle D B C .,Points A and B lie on a circle centered at O such that A B = 1 5 . The perpendicular bisector of A B intersects \odot O at point C such that O lies in the interior of \triangle A B C and A C = 35\sqrt{2} . Lines B O and A C intersect at point D . Compute the ratio of the area of \triangle D O C to the area of \triangle D B C .,,
+smt_2024,35,unknown_general_or_guts,General,[],3,4,46,47,each,each,"Perry bakes a pineapple upside-down cake with 3 slices of pineapple on top , each in the shape of regular dodecagons of side le","Perry bakes a pineapple upside-down cake with 3 slices of pineapple on top , each in the shape of regular dodecagons of side length 1 . The pineapple slices overlap each other as shown in the figure . Compute the length of the cut A B that Perry makes to slice the cake in half.","Perry bakes a pineapple upside-down cake with 4 slices of pineapple on top , each in the shape of regular dodecagons of side length 1 . The pineapple slices overlap each other as shown in the figure . Compute the length of the cut A B that Perry makes to slice the cake in half.",,
+smt_2025,42,unknown_general_or_guts,,['Combinatorics'],2,3,73,74,item,item,"Let $S$ be the set of all strings of length $15$ formed from five $1$s, $2$s, and $3$s. Say a string in $S$ is threnodic if:
+
+\begin{itemize}
+\item No two","Let $S$ be the set of all strings of length $15$ formed from five $1$s, $2$s, and $3$s. Say a string in $S$ is threnodic if:
+
+\begin{itemize}
+\item No two adjacent characters are the same, and
+\item Through a sequence of removals of contiguous substrings $123,231$, and $312$, the string can be deleted (note that the intermediate strings can have adjacent equal characters).
+\end{itemize}
+
+Compute the number of threnodic strings in $S$.","Let $S$ be the set of all strings of length $15$ formed from five $1$s, $3$s, and $3$s. Say a string in $S$ is threnodic if:
+
+\begin{itemize}
+\item No two adjacent characters are the same, and
+\item Through a sequence of removals of contiguous substrings $123,231$, and $312$, the string can be deleted (note that the intermediate strings can have adjacent equal characters).
+\end{itemize}
+
+Compute the number of threnodic strings in $S$.",,
+smt_2025,50,number_theory,,['Algebra'],317811,317812,229,235,product,product,"{3}}, \ldots, 2^{F_{27}}, 2^{F_{28}}\right\}=\left\{2,4, \ldots, 2^{196418}, 2^{317811}\right\}$ be a set. If
+
+$$
+P=\prod_{x \in S} \prod_{y \in S} x^{\log_{3} y}
+$$
+","The Fibonacci numbers are defined by $F_{1}=F_{2}=1$ and $F_{n}=F_{n-1}+F_{n-2}$ for all positive integers $n \geq 3$. Let $S=\left\{2^{F_{2}}, 2^{F_{3}}, \ldots, 2^{F_{27}}, 2^{F_{28}}\right\}=\left\{2,4, \ldots, 2^{196418}, 2^{317811}\right\}$ be a set. If
+
+$$
+P=\prod_{x \in S} \prod_{y \in S} x^{\log_{3} y}
+$$
+is the product of $x^{\log_{3} y}$ across all ordered pairs of elements ( $x, y$ ) in $S$, including when $x=y$, compute $\sqrt{\log_{2} P}$.","The Fibonacci numbers are defined by $F_{1}=F_{2}=1$ and $F_{n}=F_{n-1}+F_{n-2}$ for all positive integers $n \geq 3$. Let $S=\left\{2^{F_{2}}, 2^{F_{3}}, \ldots, 2^{F_{27}}, 2^{F_{28}}\right\}=\left\{2,4, \ldots, 2^{196418}, 2^{317812}\right\}$ be a set. If
+
+$$
+P=\prod_{x \in S} \prod_{y \in S} x^{\log_{3} y}
+$$
+is the product of $x^{\log_{3} y}$ across all ordered pairs of elements ( $x, y$ ) in $S$, including when $x=y$, compute $\sqrt{\log_{2} P}$.",,
+smt_2024,51,counting_and_probability,Discrete,[],4,5,94,95,ets,ets,"ng with magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 4 , 5 , 6 , 7 , in that order in a row , and she also has two magnets with a "" + ","Alice is playing with magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 4 , 5 , 6 , 7 , in that order in a row , and she also has two magnets with a "" + "" sign, two magnets with a "" − "" sign, and two magnets with a "" × "" sign. She randomly puts these six operation magnets between her 7 number magnets, with one operation between every two consecutive numbers, and evaluates the resulting expression (following the order of operations). What is the expected value of her result?","Alice is playing with magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 5 , 5 , 6 , 7 , in that order in a row , and she also has two magnets with a "" + "" sign, two magnets with a "" − "" sign, and two magnets with a "" × "" sign. She randomly puts these six operation magnets between her 7 number magnets, with one operation between every two consecutive numbers, and evaluates the resulting expression (following the order of operations). What is the expected value of her result?",,
+smt_2025,25,geometry,,['Geometry'],2,3,46,47,",\",",\","Let $\alpha$ and $\beta$ be two angles in $[0,2 \pi)$, and let $A=(\cos \alpha, \sin \alpha), B=(\cos \beta, \sin \beta)$ and $","Let $\alpha$ and $\beta$ be two angles in $[0,2 \pi)$, and let $A=(\cos \alpha, \sin \alpha), B=(\cos \beta, \sin \beta)$ and $C=$ $(\cos \alpha+\cos \beta, \sin \alpha+\sin \beta)$. If one of the points has coordinates $\left(\frac{32}{25}, \frac{24}{25}\right)$, compute the area of $A B C$.","Let $\alpha$ and $\beta$ be two angles in $[0,3 \pi)$, and let $A=(\cos \alpha, \sin \alpha), B=(\cos \beta, \sin \beta)$ and $C=$ $(\cos \alpha+\cos \beta, \sin \alpha+\sin \beta)$. If one of the points has coordinates $\left(\frac{32}{25}, \frac{24}{25}\right)$, compute the area of $A B C$.",,
+smt_2025,20,geometry,,['Combinatorics'],3,4,352,353,aches,aches,"it has a side which is a diagonal of $s_{1}$ ), and continue similarly with $s_{3}, s_{4}, \ldots$. Let $p\left(s_{n}\right)$ be the probability that square $s_{","Let $s_{0}$ be a square. One diagonal of $s_{0}$ is chosen, and a square $s_{1}$ is drawn with this diagonal as one of its sides. There are four possible such squares $s_{1}$; one is chosen out of these four uniformly at random. Choose $s_{2}$ in the same manner (so that it has a side which is a diagonal of $s_{1}$ ), and continue similarly with $s_{3}, s_{4}, \ldots$. Let $p\left(s_{n}\right)$ be the probability that square $s_{n}$ shares an interior with $s_{0}$ (in other words, the area of their intersection is positive). Compute the value that $p\left(s_{n}\right)$ approaches as $n$ approaches infinity.","Let $s_{0}$ be a square. One diagonal of $s_{0}$ is chosen, and a square $s_{1}$ is drawn with this diagonal as one of its sides. There are four possible such squares $s_{1}$; one is chosen out of these four uniformly at random. Choose $s_{2}$ in the same manner (so that it has a side which is a diagonal of $s_{1}$ ), and continue similarly with $s_{4}, s_{4}, \ldots$. Let $p\left(s_{n}\right)$ be the probability that square $s_{n}$ shares an interior with $s_{0}$ (in other words, the area of their intersection is positive). Compute the value that $p\left(s_{n}\right)$ approaches as $n$ approaches infinity.",,
+smt_2025,53,algebra,,['Algebra'],4,5,10,11,(x,(x,"Let $f(x)=4 x+a, g(x)=6 x+b$, and $h(x)=9 x+c$. Let $S(a, b, c)$ be the set of the $3^{20}$","Let $f(x)=4 x+a, g(x)=6 x+b$, and $h(x)=9 x+c$. Let $S(a, b, c)$ be the set of the $3^{20}$ functions formed by all possible compositions of $f, g, h$ a total of $20$ times, and let $R(a, b, c)$ be the number of distinct roots over all functions in $S(a, b, c)$. Compute the second smallest possible value of $R(a, b, c)$ as $a, b, c$ range over all reals.","Let $f(x)=5 x+a, g(x)=6 x+b$, and $h(x)=9 x+c$. Let $S(a, b, c)$ be the set of the $3^{20}$ functions formed by all possible compositions of $f, g, h$ a total of $20$ times, and let $R(a, b, c)$ be the number of distinct roots over all functions in $S(a, b, c)$. Compute the second smallest possible value of $R(a, b, c)$ as $a, b, c$ range over all reals.",,
+smt_2025,27,geometry,,['Geometry'],14,15,87,89,_{,_{,"e $\triangle A_{1} A_{2} A_{3}$ has side lengths $A_{1} A_{2}=13$, $A_{2} A_{3}=14, A_{3} A_{1}=15$. Points $B_{i}$ and $C_{i}$ lie on $\overline{A_{i+1} A_{i+2}}","Triangle $\triangle A_{1} A_{2} A_{3}$ has side lengths $A_{1} A_{2}=13$, $A_{2} A_{3}=14, A_{3} A_{1}=15$. Points $B_{i}$ and $C_{i}$ lie on $\overline{A_{i+1} A_{i+2}}$ such that $\angle B_{i} A_{i} C_{i}=30^{\circ}$ for $1 \leq i \leq 3$, where $A_{4}=A_{1}$ and $A_{5}=A_{2}$. For $1 \leq i \leq 3$, let $D_{i}$ be the intersection of $\overline{A_{i} B_{i}}$ and $\overline{A_{i+1} C_{i+1}}$ and $E_{i}$ the intersection of $\overline{A_{i} C_{i}}$ and $\overline{A_{i+1} B_{i+1}}$, where $A_{4}=$ $A_{1}, B_{4}=B_{1}, C_{4}=C_{1}$. If $D_{1} E_{3} D_{2} E_{1} D_{3} E_{2}$ forms a convex hexagon with an inscribed circle of radius $r$, compute $r$.","Triangle $\triangle A_{1} A_{2} A_{3}$ has side lengths $A_{1} A_{2}=13$, $A_{2} A_{3}=15, A_{3} A_{1}=15$. Points $B_{i}$ and $C_{i}$ lie on $\overline{A_{i+1} A_{i+2}}$ such that $\angle B_{i} A_{i} C_{i}=30^{\circ}$ for $1 \leq i \leq 3$, where $A_{4}=A_{1}$ and $A_{5}=A_{2}$. For $1 \leq i \leq 3$, let $D_{i}$ be the intersection of $\overline{A_{i} B_{i}}$ and $\overline{A_{i+1} C_{i+1}}$ and $E_{i}$ the intersection of $\overline{A_{i} C_{i}}$ and $\overline{A_{i+1} B_{i+1}}$, where $A_{4}=$ $A_{1}, B_{4}=B_{1}, C_{4}=C_{1}$. If $D_{1} E_{3} D_{2} E_{1} D_{3} E_{2}$ forms a convex hexagon with an inscribed circle of radius $r$, compute $r$.",,
+smt_2024,37,counting_and_probability,General,[],6,7,79,80,isa,isa,"Nacho is building a sandcastle . Each time he adds a scoop of sand, he has a 5 6 chance that the sandcastle will increase by 1 inch in height. Nacho is a clumsy","Nacho is building a sandcastle . Each time he adds a scoop of sand, he has a 5 6 chance that the sandcastle will increase by 1 inch in height. Nacho is a clumsy engineer , so each time the height doesn’t increase , the sandcastle topples and loses 1 3 of its current height. Suppose Nacho starts his sandcastle at height H . What H should he choose so that after any number of scoops, the expected height of his sandcastle is still H ?","Nacho is building a sandcastle . Each time he adds a scoop of sand, he has a 5 7 chance that the sandcastle will increase by 1 inch in height. Nacho is a clumsy engineer , so each time the height doesn’t increase , the sandcastle topples and loses 1 3 of its current height. Suppose Nacho starts his sandcastle at height H . What H should he choose so that after any number of scoops, the expected height of his sandcastle is still H ?",,
+smt_2025,53,algebra,,['Algebra'],3,4,84,85,",h",",h","$f(x)=4 x+a, g(x)=6 x+b$, and $h(x)=9 x+c$. Let $S(a, b, c)$ be the set of the $3^{20}$ functions formed by all possible compositions of $f, g, h$ a total of $20","Let $f(x)=4 x+a, g(x)=6 x+b$, and $h(x)=9 x+c$. Let $S(a, b, c)$ be the set of the $3^{20}$ functions formed by all possible compositions of $f, g, h$ a total of $20$ times, and let $R(a, b, c)$ be the number of distinct roots over all functions in $S(a, b, c)$. Compute the second smallest possible value of $R(a, b, c)$ as $a, b, c$ range over all reals.","Let $f(x)=4 x+a, g(x)=6 x+b$, and $h(x)=9 x+c$. Let $S(a, b, c)$ be the set of the $4^{20}$ functions formed by all possible compositions of $f, g, h$ a total of $20$ times, and let $R(a, b, c)$ be the number of distinct roots over all functions in $S(a, b, c)$. Compute the second smallest possible value of $R(a, b, c)$ as $a, b, c$ range over all reals.",,
+smt_2024,76,unknown_general_or_guts,Guts,[],13,14,450,452,forall,forall," top-right corners of the grid are dorms. St anford Ma th Tournament Guts April 13, 2024 Abby wants to bike from Schiff to Lantana, but does not want to pass thro","Consider the 4 \times 8 grid of points below that represents the Stanford campus. Stanford has developed a way to teleport Main Quad (represented by the rectangle on the lattice) anywhere on campus such that 4 points are contained within the rectangle and none of these points are dorms (the dimensions of Main Quad remain the same as in the figure). The bottom-left and top-right corners of the grid are dorms. St anford Ma th Tournament Guts April 13, 2024 Abby wants to bike from Schiff to Lantana, but does not want to pass through any points in Main Quad. If Abby only moves from one lattice point to another in the up and right directions ( and Main Quad does not move as she bikes), compute the sum of the number of paths she can take for all possible positions of Main Quad.","Consider the 4 \times 8 grid of points below that represents the Stanford campus. Stanford has developed a way to teleport Main Quad (represented by the rectangle on the lattice) anywhere on campus such that 4 points are contained within the rectangle and none of these points are dorms (the dimensions of Main Quad remain the same as in the figure). The bottom-left and top-right corners of the grid are dorms. St anford Ma th Tournament Guts April 14, 2024 Abby wants to bike from Schiff to Lantana, but does not want to pass through any points in Main Quad. If Abby only moves from one lattice point to another in the up and right directions ( and Main Quad does not move as she bikes), compute the sum of the number of paths she can take for all possible positions of Main Quad.",,
+smt_2024,51,counting_and_probability,Discrete,[],3,4,90,91,",t",",t","laying with magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 4 , 5 , 6 , 7 , in that order in a row , and she also has two magnets with a ","Alice is playing with magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 3 , 4 , 5 , 6 , 7 , in that order in a row , and she also has two magnets with a "" + "" sign, two magnets with a "" − "" sign, and two magnets with a "" × "" sign. She randomly puts these six operation magnets between her 7 number magnets, with one operation between every two consecutive numbers, and evaluates the resulting expression (following the order of operations). What is the expected value of her result?","Alice is playing with magnets on her fridge . She has 7 magnets, with the numbers 1 , 2 , 4 , 4 , 5 , 6 , 7 , in that order in a row , and she also has two magnets with a "" + "" sign, two magnets with a "" − "" sign, and two magnets with a "" × "" sign. She randomly puts these six operation magnets between her 7 number magnets, with one operation between every two consecutive numbers, and evaluates the resulting expression (following the order of operations). What is the expected value of her result?",,
+smt_2025,51,algebra,,['Algebra'],-1,-2,116,118,that,that,"mbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[0,2 \pi)$ that $z$ make","Let $Z$ be the set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-1=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[0,2 \pi)$ that $z$ makes with the positive real axis, measured counterclockwise) lying in the interval $[0, \pi)$. Compute the sum of all distinct values of $\theta_{z}$ for $z$ in $Z$. Compute the answer in radians.","Let $Z$ be the set of all complex numbers $z$ such that $|z|=1$ and
+$$
+z^{8}+i z^{6}-(1+i) z^{5}+(1-i) z^{3}+i z^{2}-2=0
+$$
+
+with the polar angle $\theta_{z}$ (the angle in $[0,2 \pi)$ that $z$ makes with the positive real axis, measured counterclockwise) lying in the interval $[0, \pi)$. Compute the sum of all distinct values of $\theta_{z}$ for $z$ in $Z$. Compute the answer in radians.",,
+smt_2024,62,geometry,Guts,[],2,3,194,195,April,April," and F are chosen on line segments B C , C A , and A B such that \angle F C A = 2 \angle E B C = 4 \angle D A B . Line A D meets C F at X and B E at Y . Given th","Kat told Viktor that equilateral triangles make better sandcastles. In equilateral triangle A B C , points D , E , and F are chosen on line segments B C , C A , and A B such that \angle F C A = 2 \angle E B C = 4 \angle D A B . Line A D meets C F at X and B E at Y . Given that the four points C , E , X , Y are concyclic, compute \angle F C A . St anford Ma th Tournament Guts April 13, 2024","Kat told Viktor that equilateral triangles make better sandcastles. In equilateral triangle A B C , points D , E , and F are chosen on line segments B C , C A , and A B such that \angle F C A = 3 \angle E B C = 4 \angle D A B . Line A D meets C F at X and B E at Y . Given that the four points C , E , X , Y are concyclic, compute \angle F C A . St anford Ma th Tournament Guts April 13, 2024",,
+smt_2025,23,geometry,,['Geometry'],40,41,86,88,angent,angent,"Omega$ be a circle. Draw two radii $r_{1}$ and $r_{2}$ of $\Omega$ that form a $40^{\circ}$ angle, and let $\omega$ be a circle which is tangent to both of these ","Let $\Omega$ be a circle. Draw two radii $r_{1}$ and $r_{2}$ of $\Omega$ that form a $40^{\circ}$ angle, and let $\omega$ be a circle which is tangent to both of these radii and internally tangent to $\Omega$. Let $\omega$ be tangent to $\Omega$ and $r_{1}$ at $A$ and $B$, respectively, and let $r_{1}$ meet $\Omega$ at $C$. Compute $\angle A B C$.
+","Let $\Omega$ be a circle. Draw two radii $r_{1}$ and $r_{2}$ of $\Omega$ that form a $41^{\circ}$ angle, and let $\omega$ be a circle which is tangent to both of these radii and internally tangent to $\Omega$. Let $\omega$ be tangent to $\Omega$ and $r_{1}$ at $A$ and $B$, respectively, and let $r_{1}$ meet $\Omega$ at $C$. Compute $\angle A B C$.
+",,
+smt_2025,3,algebra,,['Algebra'],-4,-5,105,107,+c,+c,"b, c$, define the cubic polynomials
+
+$$
+\begin{aligned}
+& A(x)=a x^{3}+a b x^{2}-4 x-c \\
+& B(x)=b x^{3}+b c x^{2}-6 x-a \\
+& C(x)=c x^{3}+c a x^{2}-9 x-b
+\end{al","Given real constants $a, b, c$, define the cubic polynomials
+
+$$
+\begin{aligned}
+& A(x)=a x^{3}+a b x^{2}-4 x-c \\
+& B(x)=b x^{3}+b c x^{2}-6 x-a \\
+& C(x)=c x^{3}+c a x^{2}-9 x-b
+\end{aligned}
+$$
+
+Given that $A, B$, and $C$ have local extrema at $b, c$, and $a$, respectively, compute $a b c$. (A local extremum is either a local maximum or a local minimum.)","Given real constants $a, b, c$, define the cubic polynomials
+
+$$
+\begin{aligned}
+& A(x)=a x^{3}+a b x^{2}-5 x-c \\
+& B(x)=b x^{3}+b c x^{2}-6 x-a \\
+& C(x)=c x^{3}+c a x^{2}-9 x-b
+\end{aligned}
+$$
+
+Given that $A, B$, and $C$ have local extrema at $b, c$, and $a$, respectively, compute $a b c$. (A local extremum is either a local maximum or a local minimum.)",,
+smt_2025,11,geometry,,['Combinatorics'],7,8,78,79,the,the,"The boxes in the expression below are filled with the numbers $3,4,5,6$, and $7$, so that each number is used exactly once, and the value of the expression is ","The boxes in the expression below are filled with the numbers $3,4,5,6$, and $7$, so that each number is used exactly once, and the value of the expression is a prime number. Compute the value of the expression.
+
+$$
+\square \times \square \times \square+\square \times \square
+$$
+","The boxes in the expression below are filled with the numbers $3,4,5,6$, and $8$, so that each number is used exactly once, and the value of the expression is a prime number. Compute the value of the expression.
+
+$$
+\square \times \square \times \square+\square \times \square
+$$
+",,
+smt_2024,78,algebra,Guts,[],5,6,160,161,possible,possible,", N } → { 2 , 3 , . . . , N } be any function such that there are exactly N + 1 5 ordered pair solutions to the equation f ( x ) − f ( y ) = 0 . Suppose F is the","Let R be the answer to problem 22 and set N = 100 + R . Let f : { 2 , 3 , . . . , N } → { 2 , 3 , . . . , N } be any function such that there are exactly N + 1 5 ordered pair solutions to the equation f ( x ) − f ( y ) = 0 . Suppose F is the collection of these functions f which maximize \log_2 f(2) \log_3 f(3) \cdots \log_N f(N) . Over all f \in F , compute the maximum possible value of \sum_{i=2}^N (f(i) - i) .","Let R be the answer to problem 22 and set N = 100 + R . Let f : { 2 , 3 , . . . , N } → { 2 , 3 , . . . , N } be any function such that there are exactly N + 1 6 ordered pair solutions to the equation f ( x ) − f ( y ) = 0 . Suppose F is the collection of these functions f which maximize \log_2 f(2) \log_3 f(3) \cdots \log_N f(N) . Over all f \in F , compute the maximum possible value of \sum_{i=2}^N (f(i) - i) .",,
+smt_2025,53,algebra,,['Algebra'],9,10,40,41,beth,beth,"Let $f(x)=4 x+a, g(x)=6 x+b$, and $h(x)=9 x+c$. Let $S(a, b, c)$ be the set of the $3^{20}$ functions formed by all possi","Let $f(x)=4 x+a, g(x)=6 x+b$, and $h(x)=9 x+c$. Let $S(a, b, c)$ be the set of the $3^{20}$ functions formed by all possible compositions of $f, g, h$ a total of $20$ times, and let $R(a, b, c)$ be the number of distinct roots over all functions in $S(a, b, c)$. Compute the second smallest possible value of $R(a, b, c)$ as $a, b, c$ range over all reals.","Let $f(x)=4 x+a, g(x)=6 x+b$, and $h(x)=10 x+c$. Let $S(a, b, c)$ be the set of the $3^{20}$ functions formed by all possible compositions of $f, g, h$ a total of $20$ times, and let $R(a, b, c)$ be the number of distinct roots over all functions in $S(a, b, c)$. Compute the second smallest possible value of $R(a, b, c)$ as $a, b, c$ range over all reals.",,
+smt_2025,47,algebra,,['Algebra'],24,25,76,78,(R,(R,Compute the sum of the real roots of $\left(x^{2}+16 x+48\right)\left(x^{2}+24 x+128\right)=44^{2^{2025}}$. (Roots are counted with multiplicity.),Compute the sum of the real roots of $\left(x^{2}+16 x+48\right)\left(x^{2}+24 x+128\right)=44^{2^{2025}}$. (Roots are counted with multiplicity.),Compute the sum of the real roots of $\left(x^{2}+16 x+48\right)\left(x^{2}+25 x+128\right)=44^{2^{2025}}$. (Roots are counted with multiplicity.),,
+smt_2025,6,geometry,,"['Algebra', 'Geometry']",200,201,538,541,icker,icker,"d hexagon over time as the black dot travels from $A$ to $B$.
+
+\begin{asy}
+size(200);
+pen thinGray = gray + 0.5;
+pen pathStyle = dashed + linewidth(1.2);
+pen arrow","In the diagram, the larger regular hexagon has side length $1$. A black dot moves with constant velocity from $A$ to $B$, two vertices on the larger hexagon as shown in the diagram. The dashed regular hexagon is then drawn with one of its vertices on the black dot while remaining rotationally symmetric with respect to the center of the larger hexagon (i.e. the dashed hexagon has the same center as the large hexagon). Compute the average area of the dashed hexagon over time as the black dot travels from $A$ to $B$.
+
+\begin{asy}
+size(200);
+pen thinGray = gray + 0.5;
+pen pathStyle = dashed + linewidth(1.2);
+pen arrowStyle = black + linewidth(1.5);
+pair A, B;
+
+// Define the 6 vertices of a regular hexagon centered at origin
+pair[] hex;
+for (int i = 0; i < 6; ++i)
+    hex[i] = dir(60*i);
+
+// Define point labels
+A = hex[1]; // top right
+B = hex[3]; // middle left
+
+// Draw hexagon with thicker border
+for (int i = 0; i < 6; ++i)
+    draw(hex[i]--hex[(i+1)%6], black);
+
+for (int i = 0; i < 6; ++i)
+    draw(hex[i]--hex[(i+2)%6], gray);
+
+pair[] hex2;
+for (int i = 0; i < 6; ++i)
+    hex2[i] = 0.71*dir(60*i+15);
+
+for (int i = 0; i < 6; ++i)
+    draw(hex2[i]--hex2[(i+1)%6], pathStyle);
+
+// Mark dot along the path near point A
+dot((0.8*hex[1] + 0.2*hex[3]), black);
+draw((0.8*hex[1] + 0.2*hex[3])--(0.7*hex[1] + 0.3*hex[3]), pathStyle, Arrow(6));
+
+// Labels
+label(""$A$"", A, NE);
+label(""$B$"", B, SW);
+\end{asy}","In the diagram, the larger regular hexagon has side length $1$. A black dot moves with constant velocity from $A$ to $B$, two vertices on the larger hexagon as shown in the diagram. The dashed regular hexagon is then drawn with one of its vertices on the black dot while remaining rotationally symmetric with respect to the center of the larger hexagon (i.e. the dashed hexagon has the same center as the large hexagon). Compute the average area of the dashed hexagon over time as the black dot travels from $A$ to $B$.
+
+\begin{asy}
+size(201);
+pen thinGray = gray + 0.5;
+pen pathStyle = dashed + linewidth(1.2);
+pen arrowStyle = black + linewidth(1.5);
+pair A, B;
+
+// Define the 6 vertices of a regular hexagon centered at origin
+pair[] hex;
+for (int i = 0; i < 6; ++i)
+    hex[i] = dir(60*i);
+
+// Define point labels
+A = hex[1]; // top right
+B = hex[3]; // middle left
+
+// Draw hexagon with thicker border
+for (int i = 0; i < 6; ++i)
+    draw(hex[i]--hex[(i+1)%6], black);
+
+for (int i = 0; i < 6; ++i)
+    draw(hex[i]--hex[(i+2)%6], gray);
+
+pair[] hex2;
+for (int i = 0; i < 6; ++i)
+    hex2[i] = 0.71*dir(60*i+15);
+
+for (int i = 0; i < 6; ++i)
+    draw(hex2[i]--hex2[(i+1)%6], pathStyle);
+
+// Mark dot along the path near point A
+dot((0.8*hex[1] + 0.2*hex[3]), black);
+draw((0.8*hex[1] + 0.2*hex[3])--(0.7*hex[1] + 0.3*hex[3]), pathStyle, Arrow(6));
+
+// Labels
+label(""$A$"", A, NE);
+label(""$B$"", B, SW);
+\end{asy}",,
+smt_2025,14,unknown_general_or_guts,,['Number Theory'],15,16,144,146,bers,bers,"e odd numbers (not necessarily distinct). Given that their product has exactly $15$ positive divisors, compute the smallest possible sum of these two numbers.","Professor Matrix Tessellation Laplace is thinking of two positive odd numbers (not necessarily distinct). Given that their product has exactly $15$ positive divisors, compute the smallest possible sum of these two numbers.","Professor Matrix Tessellation Laplace is thinking of two positive odd numbers (not necessarily distinct). Given that their product has exactly $16$ positive divisors, compute the smallest possible sum of these two numbers.",,
+smt_2025,19,counting_and_probability,,"['Combinatorics', 'Algebra']",13,14,261,263,{i,{i,"ynomial of minimal degree with coefficients in $\{0,1, \ldots, 12\}$ such that $13 \mid f(n)-\alpha(n)$ for all $n \in\{0,1, \ldots, 12\}$. If $f(n)$ has degree $","Let $\alpha$ be the permutation of $\{0,1, \ldots, 12\}$ satisfying $\alpha(0)=0, \alpha(n)=n+1$ for odd $n$, and $\alpha(n)=n-1$ for positive even $n$. Let $f(n)$ be the unique polynomial of minimal degree with coefficients in $\{0,1, \ldots, 12\}$ such that $13 \mid f(n)-\alpha(n)$ for all $n \in\{0,1, \ldots, 12\}$. If $f(n)$ has degree $d$ and can be expressed as $f(n)=\sum_{i=0}^{d} a_{i} n^{i}$, find $100 a_{d}+a_{1}$.","Let $\alpha$ be the permutation of $\{0,1, \ldots, 12\}$ satisfying $\alpha(0)=0, \alpha(n)=n+1$ for odd $n$, and $\alpha(n)=n-1$ for positive even $n$. Let $f(n)$ be the unique polynomial of minimal degree with coefficients in $\{0,1, \ldots, 12\}$ such that $14 \mid f(n)-\alpha(n)$ for all $n \in\{0,1, \ldots, 12\}$. If $f(n)$ has degree $d$ and can be expressed as $f(n)=\sum_{i=0}^{d} a_{i} n^{i}$, find $100 a_{d}+a_{1}$.",,
+smt_2024,75,geometry,Guts,[],4,5,69,70,and,and,Consider cutting the ellipse y2+x^2/9= 1 by the line y =\sqrt{7} x + 4 . What is the largest area bounded by the ellipse and the line?,Consider cutting the ellipse y2+x^2/9= 1 by the line y =\sqrt{7} x + 4 . What is the largest area bounded by the ellipse and the line?,Consider cutting the ellipse y2+x^2/9= 1 by the line y =\sqrt{7} x + 5 . What is the largest area bounded by the ellipse and the line?,,
+smt_2024,25,geometry,General,[],2,3,83,84,ari,ari," \mathcal{A} be the region in the x y -plane bounded by y = 0 , y = x , and y = 2 − x . \mathcal{A} includes the area enclosed by these boundaries, as well as th","Let \mathcal{A} be the region in the x y -plane bounded by y = 0 , y = x , and y = 2 − x . \mathcal{A} includes the area enclosed by these boundaries, as well as the boundaries themselves. What is the maximum possible radius of a circle that lies in \mathcal{A} ?","Let \mathcal{A} be the region in the x y -plane bounded by y = 0 , y = x , and y = 3 − x . \mathcal{A} includes the area enclosed by these boundaries, as well as the boundaries themselves. What is the maximum possible radius of a circle that lies in \mathcal{A} ?",,
+smt_2025,48,algebra,,['Algebra'],11,12,85,87,comput,comput," real numbers $s, m$, and $t$ such that $s^{2}+m^{2}+t^{2}=8, s^{3}+m^{3}+t^{3}=11$, and $s^{4}+m^{4}+t^{4}=25$, compute the value of $(s+m+t)(s+m-t)(s-m+t)(s-m-t","Given real numbers $s, m$, and $t$ such that $s^{2}+m^{2}+t^{2}=8, s^{3}+m^{3}+t^{3}=11$, and $s^{4}+m^{4}+t^{4}=25$, compute the value of $(s+m+t)(s+m-t)(s-m+t)(s-m-t)$.","Given real numbers $s, m$, and $t$ such that $s^{2}+m^{2}+t^{2}=8, s^{3}+m^{3}+t^{3}=12$, and $s^{4}+m^{4}+t^{4}=25$, compute the value of $(s+m+t)(s+m-t)(s-m+t)(s-m-t)$.",,
+smt_2025,47,algebra,,['Algebra'],48,49,55,57,right,right,Compute the sum of the real roots of $\left(x^{2}+16 x+48\right)\left(x^{2}+24 x+128\right)=44^{2^{2025}}$. (Roots are counted with multi,Compute the sum of the real roots of $\left(x^{2}+16 x+48\right)\left(x^{2}+24 x+128\right)=44^{2^{2025}}$. (Roots are counted with multiplicity.),Compute the sum of the real roots of $\left(x^{2}+16 x+49\right)\left(x^{2}+24 x+128\right)=44^{2^{2025}}$. (Roots are counted with multiplicity.),,

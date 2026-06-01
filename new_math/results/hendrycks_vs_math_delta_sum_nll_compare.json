@@ -1,0 +1,29 @@
+{
+  "score_key": "delta_sum_nll",
+  "clean": false,
+  "seen_file": "results/hendrycks_seen_olmo1b.jsonl",
+  "unseen_file": "results/math_unseen_olmo1b.jsonl",
+  "seen": {
+    "n": 68,
+    "mean": 0.8558744542738971,
+    "median": 0.75,
+    "std": 1.4475592422225672,
+    "min": -3.125,
+    "max": 6.4794921875,
+    "frac_positive": 0.75,
+    "positive_half_mean": 1.3799019607843137
+  },
+  "unseen": {
+    "n": 51,
+    "mean": 0.11894914215686274,
+    "median": 0.125,
+    "std": 1.606544331337656,
+    "min": -4.59375,
+    "max": 5.75,
+    "frac_positive": 0.5490196078431373,
+    "positive_half_mean": 1.1240234375
+  },
+  "difference_mean_seen_minus_unseen": 0.7369253121170344,
+  "auc_seen_higher_than_unseen": 0.6500865051903114,
+  "cohens_d_seen_minus_unseen": 0.48560487437395156
+}

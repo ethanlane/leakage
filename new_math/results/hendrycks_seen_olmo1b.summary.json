@@ -1,0 +1,52 @@
+{
+  "input": "hendrycks_final.jsonl",
+  "output": "results/hendrycks_seen_olmo1b.jsonl",
+  "dataset_label": "hendrycks_seen",
+  "model": "allenai/OLMo-1B-hf",
+  "input_rows": 70,
+  "kept_rows": 68,
+  "skip_counts": {
+    "orig_num_token_crosses_left_nonspace": 1,
+    "offset_mismatch_surface='3'": 1
+  },
+  "delta_sum_nll": {
+    "n": 68,
+    "mean": 0.8558744542738971,
+    "median": 0.75,
+    "std": 1.4475592422225672,
+    "min": -3.125,
+    "max": 6.4794921875,
+    "frac_positive": 0.75,
+    "positive_half_mean": 1.3799019607843137
+  },
+  "delta_sum_nll_clean_same_token_count": {
+    "n": 67,
+    "mean": 0.7719398612406716,
+    "median": 0.75,
+    "std": 1.2809594381697003,
+    "min": -3.125,
+    "max": 4.99609375,
+    "frac_positive": 0.746268656716418,
+    "positive_half_mean": 1.27791015625
+  },
+  "delta_avg_nll": {
+    "n": 68,
+    "mean": 0.7497221789106268,
+    "median": 0.6875,
+    "std": 1.241032458685484,
+    "min": -3.125,
+    "max": 4.99609375,
+    "frac_positive": 0.75,
+    "positive_half_mean": 1.2193226248832867
+  },
+  "context_score": {
+    "n": 68,
+    "mean": 0.03788069671946772,
+    "median": 0.028807149536308252,
+    "std": 0.05600765539605548,
+    "min": -0.048283066860464796,
+    "max": 0.28668588491586533,
+    "frac_positive": 0.7794117647058824,
+    "positive_half_mean": 0.053809415914696526
+  }
+}

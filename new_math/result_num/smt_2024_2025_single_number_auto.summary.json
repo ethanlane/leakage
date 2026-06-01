@@ -1,0 +1,43 @@
+{
+  "n_problems_total": 145,
+  "n_candidates_auto_accept": 65,
+  "n_rejected_numeric_spans": 977,
+  "accepted_by_dataset": {
+    "smt_2025": 43,
+    "smt_2024": 22
+  },
+  "accepted_by_norm_category": {
+    "algebra": 18,
+    "geometry": 22,
+    "counting_and_probability": 12,
+    "reject_calculus_no_clean_hendricks_match": 3,
+    "unknown_general_or_guts": 7,
+    "number_theory": 3
+  },
+  "rejected_by_reason": {
+    "no_valid_numeric_perturbation": 368,
+    "same_number_string_appears_multiple_times": 337,
+    "index_or_exponent_like_position": 57,
+    "fraction_or_ratio_nearby": 13,
+    "latex_fraction_nearby": 55,
+    "perturbed_number_not_single_token": 2,
+    "original_number_not_single_token": 99,
+    "danger_keyword_nearby:digit": 7,
+    "danger_keyword_nearby:prime": 4,
+    "danger_keyword_nearby:integer": 12,
+    "danger_keyword_nearby:mod": 2,
+    "danger_keyword_nearby:divisible": 5,
+    "danger_keyword_nearby:problem": 5,
+    "danger_keyword_nearby:remainder": 3,
+    "danger_keyword_nearby:base": 3,
+    "danger_keyword_nearby:vertices": 1,
+    "danger_keyword_nearby:sides": 1,
+    "danger_keyword_nearby:part": 3
+  },
+  "outputs": {
+    "candidates_jsonl": "result_num/smt_2024_2025_single_number_auto.candidates.jsonl",
+    "candidates_csv": "result_num/smt_2024_2025_single_number_auto.candidates.csv",
+    "rejects_jsonl": "result_num/smt_2024_2025_single_number_auto.rejects.jsonl",
+    "summary_json": "result_num/smt_2024_2025_single_number_auto.summary.json"
+  }
+}

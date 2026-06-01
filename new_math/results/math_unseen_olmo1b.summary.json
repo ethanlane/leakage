@@ -1,0 +1,52 @@
+{
+  "input": "math_full.jsonl",
+  "output": "results/math_unseen_olmo1b.jsonl",
+  "dataset_label": "math_unseen",
+  "model": "allenai/OLMo-1B-hf",
+  "input_rows": 70,
+  "kept_rows": 51,
+  "skip_counts": {
+    "orig_num_token_crosses_left_nonspace": 1,
+    "original_number_multiple_occurrences": 18
+  },
+  "delta_sum_nll": {
+    "n": 51,
+    "mean": 0.11894914215686274,
+    "median": 0.125,
+    "std": 1.606544331337656,
+    "min": -4.59375,
+    "max": 5.75,
+    "frac_positive": 0.5490196078431373,
+    "positive_half_mean": 1.1240234375
+  },
+  "delta_sum_nll_clean_same_token_count": {
+    "n": 51,
+    "mean": 0.11894914215686274,
+    "median": 0.125,
+    "std": 1.606544331337656,
+    "min": -4.59375,
+    "max": 5.75,
+    "frac_positive": 0.5490196078431373,
+    "positive_half_mean": 1.1240234375
+  },
+  "delta_avg_nll": {
+    "n": 51,
+    "mean": 0.11282169117647059,
+    "median": 0.125,
+    "std": 1.605170981939771,
+    "min": -4.59375,
+    "max": 5.75,
+    "frac_positive": 0.5490196078431373,
+    "positive_half_mean": 1.1128627232142858
+  },
+  "context_score": {
+    "n": 51,
+    "mean": 0.003851384878470276,
+    "median": 0.0036779626623375528,
+    "std": 0.021488606891009017,
+    "min": -0.043611577351888364,
+    "max": 0.0528564453125,
+    "frac_positive": 0.5686274509803921,
+    "positive_half_mean": 0.018501565879263143
+  }
+}
