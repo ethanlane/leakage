@@ -1,0 +1,33 @@
+{
+  "n_rows": 40,
+  "n_scored": 32,
+  "n_accept": 39,
+  "n_reject": 1,
+  "n_position_mismatch": 0,
+  "n_rename_failed": 0,
+  "n_scoring_failed": 0,
+  "n_original_test_failed": 3,
+  "n_perturbed_test_failed": 7,
+  "overall": {
+    "n": 32,
+    "mean_delta_mean_nll": 2.237724761168162,
+    "median_delta_mean_nll": 1.410929361979167,
+    "std_delta_mean_nll": 3.110290131444079,
+    "min_delta_mean_nll": -1.171875,
+    "max_delta_mean_nll": 14.062549591064453,
+    "frac_positive_delta_mean_nll": 0.8125,
+    "frac_prefers_original": 0.8125
+  },
+  "by_dataset": {
+    "bigcodebench": {
+      "n": 32,
+      "mean_delta_mean_nll": 2.237724761168162,
+      "median_delta_mean_nll": 1.410929361979167,
+      "std_delta_mean_nll": 3.110290131444079,
+      "min_delta_mean_nll": -1.171875,
+      "max_delta_mean_nll": 14.062549591064453,
+      "frac_positive_delta_mean_nll": 0.8125,
+      "frac_prefers_original": 0.8125
+    }
+  }
+}

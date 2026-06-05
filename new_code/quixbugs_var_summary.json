@@ -1,0 +1,33 @@
+{
+  "n_rows": 37,
+  "n_scored": 37,
+  "n_accept": 37,
+  "n_reject": 0,
+  "n_position_mismatch": 0,
+  "n_rename_failed": 0,
+  "n_scoring_failed": 0,
+  "n_original_test_failed": 0,
+  "n_perturbed_test_failed": 0,
+  "overall": {
+    "n": 37,
+    "mean_delta_mean_nll": 0.8624492168426513,
+    "median_delta_mean_nll": 0.6718343098958333,
+    "std_delta_mean_nll": 2.2314400228539735,
+    "min_delta_mean_nll": -3.672403971354167,
+    "max_delta_mean_nll": 5.89923095703125,
+    "frac_positive_delta_mean_nll": 0.6486486486486487,
+    "frac_prefers_original": 0.6486486486486487
+  },
+  "by_dataset": {
+    "quixbugs": {
+      "n": 37,
+      "mean_delta_mean_nll": 0.8624492168426513,
+      "median_delta_mean_nll": 0.6718343098958333,
+      "std_delta_mean_nll": 2.2314400228539735,
+      "min_delta_mean_nll": -3.672403971354167,
+      "max_delta_mean_nll": 5.89923095703125,
+      "frac_positive_delta_mean_nll": 0.6486486486486487,
+      "frac_prefers_original": 0.6486486486486487
+    }
+  }
+}
