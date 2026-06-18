@@ -1,0 +1,557 @@
+{
+  "input": "quixbugs_var_scores.jsonl",
+  "n_total_rows": 37,
+  "n_valid_rows": 37,
+  "require_tests_pass": false,
+  "tie_eps": 1e-09,
+  "counts": {
+    "prefers_original": 24,
+    "prefers_substitute": 13,
+    "ties": 0
+  },
+  "fractions": {
+    "prefers_original": 0.6486486486486487,
+    "prefers_substitute": 0.35135135135135137,
+    "ties": 0.0
+  },
+  "overall": {
+    "n": 37,
+    "mean_delta_mean_nll": 0.8624492168426513,
+    "median_delta_mean_nll": 0.6718343098958333,
+    "std_delta_mean_nll": 2.2314400228539735,
+    "mean_abs_delta_mean_nll": 1.822332984047967,
+    "median_abs_delta_mean_nll": 1.3360214233398438,
+    "mean_orig_mean_nll": 2.9273925910124907,
+    "mean_sub_mean_nll": 3.7898418078551424,
+    "n_same_token_count": 14,
+    "frac_same_token_count": 0.3783783783783784
+  },
+  "prefers_original": {
+    "n": 24,
+    "mean_delta_mean_nll": 2.0695196131865186,
+    "median_delta_mean_nll": 1.3363545735677083,
+    "std_delta_mean_nll": 1.7319977991224775,
+    "mean_abs_delta_mean_nll": 2.0695196131865186,
+    "median_abs_delta_mean_nll": 1.3363545735677083,
+    "mean_orig_mean_nll": 2.1198444141281976,
+    "mean_sub_mean_nll": 4.189364027314716,
+    "n_same_token_count": 10,
+    "frac_same_token_count": 0.4166666666666667
+  },
+  "prefers_substitute": {
+    "n": 13,
+    "mean_delta_mean_nll": -1.365988437946026,
+    "median_delta_mean_nll": -1.3360214233398438,
+    "std_delta_mean_nll": 0.9457936046627498,
+    "mean_abs_delta_mean_nll": 1.365988437946026,
+    "median_abs_delta_mean_nll": 1.3360214233398438,
+    "mean_orig_mean_nll": 4.4182507637219555,
+    "mean_sub_mean_nll": 3.0522623257759287,
+    "n_same_token_count": 4,
+    "frac_same_token_count": 0.3076923076923077
+  },
+  "ties": {
+    "n": 0,
+    "mean_delta_mean_nll": null,
+    "median_delta_mean_nll": null,
+    "std_delta_mean_nll": null,
+    "mean_abs_delta_mean_nll": null,
+    "median_abs_delta_mean_nll": null,
+    "mean_orig_mean_nll": null,
+    "mean_sub_mean_nll": null,
+    "n_same_token_count": 0,
+    "frac_same_token_count": null
+  },
+  "strongest_prefers_original": [
+    {
+      "example_id": "find_first_in_sorted",
+      "old_name": "mid",
+      "new_name": "middle",
+      "delta_mean_nll": 5.89923095703125,
+      "orig_tokens": [
+        "Ġmid"
+      ],
+      "sub_tokens": [
+        "Ġmiddle"
+      ],
+      "binding_context": "mid = (lo + hi) // 2"
+    },
+    {
+      "example_id": "get_factors",
+      "old_name": "i",
+      "new_name": "divisor",
+      "delta_mean_nll": 5.66357421875,
+      "orig_tokens": [
+        "Ġi"
+      ],
+      "sub_tokens": [
+        "Ġdivisor"
+      ],
+      "binding_context": "for i in range(2, int(n ** 0.5) + 1):"
+    },
+    {
+      "example_id": "subsequences",
+      "old_name": "i",
+      "new_name": "start",
+      "delta_mean_nll": 5.0009765625,
+      "orig_tokens": [
+        "Ġi"
+      ],
+      "sub_tokens": [
+        "Ġstart"
+      ],
+      "binding_context": "for i in range(a, b + 1 - k):"
+    },
+    {
+      "example_id": "bucketsort",
+      "old_name": "counts",
+      "new_name": "frequencies",
+      "delta_mean_nll": 4.27734375,
+      "orig_tokens": [
+        "Ġcounts"
+      ],
+      "sub_tokens": [
+        "Ġfrequencies"
+      ],
+      "binding_context": "counts = [0] * k"
+    },
+    {
+      "example_id": "next_permutation",
+      "old_name": "i",
+      "new_name": "pivot_idx",
+      "delta_mean_nll": 3.4039713541666665,
+      "orig_tokens": [
+        "Ġi"
+      ],
+      "sub_tokens": [
+        "Ġpivot",
+        "_",
+        "idx"
+      ],
+      "binding_context": "for i in range(len(perm) - 2, -1, -1):"
+    },
+    {
+      "example_id": "flatten",
+      "old_name": "y",
+      "new_name": "subitem",
+      "delta_mean_nll": 3.33544921875,
+      "orig_tokens": [
+        "Ġy"
+      ],
+      "sub_tokens": [
+        "Ġsub",
+        "item"
+      ],
+      "binding_context": "for y in flatten(x):"
+    },
+    {
+      "example_id": "topological_ordering",
+      "old_name": "ordered_nodes",
+      "new_name": "ordered",
+      "delta_mean_nll": 3.0882975260416665,
+      "orig_tokens": [
+        "Ġordered",
+        "_",
+        "nodes"
+      ],
+      "sub_tokens": [
+        "Ġordered"
+      ],
+      "binding_context": "ordered_nodes = [node for node in nodes if not node.incoming_nodes]"
+    },
+    {
+      "example_id": "find_in_sorted",
+      "old_name": "mid",
+      "new_name": "middle",
+      "delta_mean_nll": 2.68701171875,
+      "orig_tokens": [
+        "Ġmid"
+      ],
+      "sub_tokens": [
+        "Ġmiddle"
+      ],
+      "binding_context": "mid = start + (end - start) // 2"
+    },
+    {
+      "example_id": "rpn_eval",
+      "old_name": "stack",
+      "new_name": "operands",
+      "delta_mean_nll": 2.123046875,
+      "orig_tokens": [
+        "Ġstack"
+      ],
+      "sub_tokens": [
+        "Ġoperands"
+      ],
+      "binding_context": "stack = []"
+    },
+    {
+      "example_id": "detect_cycle",
+      "old_name": "hare",
+      "new_name": "fast",
+      "delta_mean_nll": 1.984375,
+      "orig_tokens": [
+        "Ġh",
+        "are"
+      ],
+      "sub_tokens": [
+        "Ġfast"
+      ],
+      "binding_context": "hare = tortoise = node"
+    },
+    {
+      "example_id": "shortest_path_lengths",
+      "old_name": "length_by_path",
+      "new_name": "distances",
+      "delta_mean_nll": 1.8944514751434327,
+      "orig_tokens": [
+        "Ġlength",
+        "_",
+        "by",
+        "_",
+        "path"
+      ],
+      "sub_tokens": [
+        "Ġdistances"
+      ],
+      "binding_context": "length_by_path = defaultdict(lambda: float('inf'))"
+    },
+    {
+      "example_id": "kheapsort",
+      "old_name": "heap",
+      "new_name": "min_heap",
+      "delta_mean_nll": 1.3499552408854165,
+      "orig_tokens": [
+        "Ġheap"
+      ],
+      "sub_tokens": [
+        "Ġmin",
+        "_",
+        "heap"
+      ],
+      "binding_context": "heap = arr[:k]"
+    },
+    {
+      "example_id": "quicksort",
+      "old_name": "pivot",
+      "new_name": "pivot_value",
+      "delta_mean_nll": 1.32275390625,
+      "orig_tokens": [
+        "Ġpivot"
+      ],
+      "sub_tokens": [
+        "Ġpivot",
+        "_",
+        "value"
+      ],
+      "binding_context": "pivot = arr[0]"
+    },
+    {
+      "example_id": "knapsack",
+      "old_name": "i",
+      "new_name": "item_idx",
+      "delta_mean_nll": 1.2630208333333335,
+      "orig_tokens": [
+        "Ġi"
+      ],
+      "sub_tokens": [
+        "Ġitem",
+        "_",
+        "idx"
+      ],
+      "binding_context": "for i in range(1, len(items) + 1):"
+    },
+    {
+      "example_id": "lcs_length",
+      "old_name": "dp",
+      "new_name": "table",
+      "delta_mean_nll": 1.1328125,
+      "orig_tokens": [
+        "Ġdp"
+      ],
+      "sub_tokens": [
+        "Ġtable"
+      ],
+      "binding_context": "dp = Counter()"
+    },
+    {
+      "example_id": "powerset",
+      "old_name": "rest_subsets",
+      "new_name": "subsets",
+      "delta_mean_nll": 1.019073486328125,
+      "orig_tokens": [
+        "Ġrest",
+        "_",
+        "sub",
+        "sets"
+      ],
+      "sub_tokens": [
+        "Ġsub",
+        "sets"
+      ],
+      "binding_context": "rest_subsets = powerset(rest)"
+    },
+    {
+      "example_id": "max_sublist_sum",
+      "old_name": "max_ending_here",
+      "new_name": "current_sum",
+      "delta_mean_nll": 0.7840016682942708,
+      "orig_tokens": [
+        "Ġmax",
+        "_",
+        "ending",
+        "_",
+        "here"
+      ],
+      "sub_tokens": [
+        "Ġcurrent",
+        "_",
+        "sum"
+      ],
+      "binding_context": "max_ending_here = 0"
+    },
+    {
+      "example_id": "sqrt",
+      "old_name": "approx",
+      "new_name": "guess",
+      "delta_mean_nll": 0.7265625,
+      "orig_tokens": [
+        "Ġapprox"
+      ],
+      "sub_tokens": [
+        "Ġguess"
+      ],
+      "binding_context": "approx = x / 2"
+    },
+    {
+      "example_id": "mergesort",
+      "old_name": "i",
+      "new_name": "left_idx",
+      "delta_mean_nll": 0.6718343098958333,
+      "orig_tokens": [
+        "Ġi"
+      ],
+      "sub_tokens": [
+        "Ġleft",
+        "_",
+        "idx"
+      ],
+      "binding_context": "i = 0"
+    },
+    {
+      "example_id": "sieve",
+      "old_name": "primes",
+      "new_name": "prime_list",
+      "delta_mean_nll": 0.664764404296875,
+      "orig_tokens": [
+        "Ġpri",
+        "mes"
+      ],
+      "sub_tokens": [
+        "Ġprime",
+        "_",
+        "list"
+      ],
+      "binding_context": "primes = []"
+    }
+  ],
+  "strongest_prefers_substitute": [
+    {
+      "example_id": "depth_first_search",
+      "old_name": "nodesvisited",
+      "new_name": "visited_nodes",
+      "delta_mean_nll": -3.672403971354167,
+      "orig_tokens": [
+        "Ġnodes",
+        "visited"
+      ],
+      "sub_tokens": [
+        "Ġvisited",
+        "_",
+        "nodes"
+      ],
+      "binding_context": "nodesvisited = set()"
+    },
+    {
+      "example_id": "reverse_linked_list",
+      "old_name": "prevnode",
+      "new_name": "prev",
+      "delta_mean_nll": -2.1953125,
+      "orig_tokens": [
+        "Ġprev",
+        "node"
+      ],
+      "sub_tokens": [
+        "Ġprev"
+      ],
+      "binding_context": "prevnode = None"
+    },
+    {
+      "example_id": "kth",
+      "old_name": "pivot",
+      "new_name": "pivot_value",
+      "delta_mean_nll": -2.032877604166667,
+      "orig_tokens": [
+        "Ġpivot"
+      ],
+      "sub_tokens": [
+        "Ġpivot",
+        "_",
+        "value"
+      ],
+      "binding_context": "pivot = arr[0]"
+    },
+    {
+      "example_id": "lis",
+      "old_name": "longest",
+      "new_name": "best_length",
+      "delta_mean_nll": -1.9462890625,
+      "orig_tokens": [
+        "Ġlongest"
+      ],
+      "sub_tokens": [
+        "Ġbest",
+        "_",
+        "length"
+      ],
+      "binding_context": "longest = 0"
+    },
+    {
+      "example_id": "possible_change",
+      "old_name": "first",
+      "new_name": "coin",
+      "delta_mean_nll": -1.578125,
+      "orig_tokens": [
+        "Ġfirst"
+      ],
+      "sub_tokens": [
+        "Ġcoin"
+      ],
+      "binding_context": "first, *rest = coins"
+    },
+    {
+      "example_id": "wrap",
+      "old_name": "end",
+      "new_name": "break_pos",
+      "delta_mean_nll": -1.3837890625,
+      "orig_tokens": [
+        "Ġend"
+      ],
+      "sub_tokens": [
+        "Ġbreak",
+        "_",
+        "pos"
+      ],
+      "binding_context": "end = text.rfind(' ', 0, cols + 1)"
+    },
+    {
+      "example_id": "breadth_first_search",
+      "old_name": "queue",
+      "new_name": "frontier",
+      "delta_mean_nll": -1.3360214233398438,
+      "orig_tokens": [
+        "Ġqueue"
+      ],
+      "sub_tokens": [
+        "Ġfront",
+        "ier"
+      ],
+      "binding_context": "queue = Queue()"
+    },
+    {
+      "example_id": "hanoi",
+      "old_name": "steps",
+      "new_name": "moves",
+      "delta_mean_nll": -1.0546875,
+      "orig_tokens": [
+        "Ġsteps"
+      ],
+      "sub_tokens": [
+        "Ġmoves"
+      ],
+      "binding_context": "steps = []"
+    },
+    {
+      "example_id": "minimum_spanning_tree",
+      "old_name": "group_by_node",
+      "new_name": "component_by_node",
+      "delta_mean_nll": -0.7416524887084961,
+      "orig_tokens": [
+        "Ġgroup",
+        "_",
+        "by",
+        "_",
+        "node"
+      ],
+      "sub_tokens": [
+        "Ġcomponent",
+        "_",
+        "by",
+        "_",
+        "node"
+      ],
+      "binding_context": "group_by_node = {}"
+    },
+    {
+      "example_id": "to_base",
+      "old_name": "result",
+      "new_name": "result_str",
+      "delta_mean_nll": -0.66162109375,
+      "orig_tokens": [
+        "Ġresult"
+      ],
+      "sub_tokens": [
+        "Ġresult",
+        "_",
+        "str"
+      ],
+      "binding_context": "result = ''"
+    },
+    {
+      "example_id": "pascal",
+      "old_name": "r",
+      "new_name": "row_idx",
+      "delta_mean_nll": -0.5237630208333335,
+      "orig_tokens": [
+        "Ġr"
+      ],
+      "sub_tokens": [
+        "Ġrow",
+        "_",
+        "idx"
+      ],
+      "binding_context": "for r in range(1, n):"
+    },
+    {
+      "example_id": "shunting_yard",
+      "old_name": "opstack",
+      "new_name": "operators",
+      "delta_mean_nll": -0.3341064453125,
+      "orig_tokens": [
+        "Ġop",
+        "stack"
+      ],
+      "sub_tokens": [
+        "Ġoperators"
+      ],
+      "binding_context": "opstack = []"
+    },
+    {
+      "example_id": "next_palindrome",
+      "old_name": "high_mid",
+      "new_name": "right_mid",
+      "delta_mean_nll": -0.2972005208333339,
+      "orig_tokens": [
+        "Ġhigh",
+        "_",
+        "mid"
+      ],
+      "sub_tokens": [
+        "Ġright",
+        "_",
+        "mid"
+      ],
+      "binding_context": "high_mid = len(digit_list) // 2"
+    }
+  ]
+}

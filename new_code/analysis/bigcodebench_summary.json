@@ -1,0 +1,453 @@
+{
+  "input": "bigcodebench_var_scores.jsonl",
+  "n_total_rows": 40,
+  "n_valid_rows": 32,
+  "require_tests_pass": true,
+  "tie_eps": 1e-09,
+  "counts": {
+    "prefers_original": 26,
+    "prefers_substitute": 6,
+    "ties": 0
+  },
+  "fractions": {
+    "prefers_original": 0.8125,
+    "prefers_substitute": 0.1875,
+    "ties": 0.0
+  },
+  "overall": {
+    "n": 32,
+    "mean_delta_mean_nll": 2.237724761168162,
+    "median_delta_mean_nll": 1.410929361979167,
+    "std_delta_mean_nll": 3.110290131444079,
+    "mean_abs_delta_mean_nll": 2.532623747984568,
+    "median_abs_delta_mean_nll": 1.410929361979167,
+    "mean_orig_mean_nll": 2.896892170111338,
+    "mean_sub_mean_nll": 5.1346169312795,
+    "n_same_token_count": 19,
+    "frac_same_token_count": 0.59375
+  },
+  "prefers_original": {
+    "n": 26,
+    "mean_delta_mean_nll": 2.9355990825555263,
+    "median_delta_mean_nll": 1.752115885416667,
+    "std_delta_mean_nll": 3.047238369873816,
+    "mean_abs_delta_mean_nll": 2.9355990825555263,
+    "median_abs_delta_mean_nll": 1.752115885416667,
+    "mean_orig_mean_nll": 2.378419069143442,
+    "mean_sub_mean_nll": 5.314018151698969,
+    "n_same_token_count": 14,
+    "frac_same_token_count": 0.5384615384615384
+  },
+  "prefers_substitute": {
+    "n": 6,
+    "mean_delta_mean_nll": -0.7863972981770834,
+    "median_delta_mean_nll": -0.7197469075520835,
+    "std_delta_mean_nll": 0.2073043777012735,
+    "mean_abs_delta_mean_nll": 0.7863972981770834,
+    "median_abs_delta_mean_nll": 0.7197469075520835,
+    "mean_orig_mean_nll": 5.143608940972222,
+    "mean_sub_mean_nll": 4.357211642795138,
+    "n_same_token_count": 5,
+    "frac_same_token_count": 0.8333333333333334
+  },
+  "ties": {
+    "n": 0,
+    "mean_delta_mean_nll": null,
+    "median_delta_mean_nll": null,
+    "std_delta_mean_nll": null,
+    "mean_abs_delta_mean_nll": null,
+    "median_abs_delta_mean_nll": null,
+    "mean_orig_mean_nll": null,
+    "mean_sub_mean_nll": null,
+    "n_same_token_count": 0,
+    "frac_same_token_count": null
+  },
+  "strongest_prefers_original": [
+    {
+      "example_id": "BigCodeBench/5",
+      "old_name": "v",
+      "new_name": "vals",
+      "delta_mean_nll": 14.062549591064453,
+      "orig_tokens": [
+        "Ġv"
+      ],
+      "sub_tokens": [
+        "Ġvals"
+      ],
+      "binding_context": "for k, v in random_dict.items()"
+    },
+    {
+      "example_id": "BigCodeBench/10",
+      "old_name": "random_nums",
+      "new_name": "samples",
+      "delta_mean_nll": 6.385091145833333,
+      "orig_tokens": [
+        "Ġrandom",
+        "_",
+        "nums"
+      ],
+      "sub_tokens": [
+        "Ġsamples"
+      ],
+      "binding_context": "random_nums = [random.randint(0, RANGE) for _ in range(total_nums)]"
+    },
+    {
+      "example_id": "BigCodeBench/11",
+      "old_name": "random_nums",
+      "new_name": "samples",
+      "delta_mean_nll": 6.183919270833333,
+      "orig_tokens": [
+        "Ġrandom",
+        "_",
+        "nums"
+      ],
+      "sub_tokens": [
+        "Ġsamples"
+      ],
+      "binding_context": "random_nums = [random.randint(0, max_value) for _ in range(total_nums)]"
+    },
+    {
+      "example_id": "BigCodeBench/37",
+      "old_name": "ax",
+      "new_name": "axes",
+      "delta_mean_nll": 6.00390625,
+      "orig_tokens": [
+        "Ġax"
+      ],
+      "sub_tokens": [
+        "Ġaxes"
+      ],
+      "binding_context": "ax = sns.barplot(x=feature_imp, y=feature_imp.index)"
+    },
+    {
+      "example_id": "BigCodeBench/8",
+      "old_name": "random_nums",
+      "new_name": "samples",
+      "delta_mean_nll": 5.9884033203125,
+      "orig_tokens": [
+        "Ġrandom",
+        "_",
+        "nums"
+      ],
+      "sub_tokens": [
+        "Ġsamples"
+      ],
+      "binding_context": "random_nums = [randint(0, RANGE) for _ in range(total_nums)]"
+    },
+    {
+      "example_id": "BigCodeBench/17",
+      "old_name": "proc",
+      "new_name": "process_obj",
+      "delta_mean_nll": 5.125857671101888,
+      "orig_tokens": [
+        "Ġproc"
+      ],
+      "sub_tokens": [
+        "Ġprocess",
+        "_",
+        "obj"
+      ],
+      "binding_context": "is_running = any([proc for proc in psutil.process_iter() if proc.name() == process_name])"
+    },
+    {
+      "example_id": "BigCodeBench/9",
+      "old_name": "df",
+      "new_name": "dataframe",
+      "delta_mean_nll": 4.205078125,
+      "orig_tokens": [
+        "Ġdf"
+      ],
+      "sub_tokens": [
+        "Ġdataframe"
+      ],
+      "binding_context": "df = pd.DataFrame(list_of_pairs, columns=[\"Category\", \"Value\"])"
+    },
+    {
+      "example_id": "BigCodeBench/20",
+      "old_name": "df",
+      "new_name": "dataframe",
+      "delta_mean_nll": 4.1787109375,
+      "orig_tokens": [
+        "Ġdf"
+      ],
+      "sub_tokens": [
+        "Ġdataframe"
+      ],
+      "binding_context": "df = pd.read_csv(csv_file)"
+    },
+    {
+      "example_id": "BigCodeBench/38",
+      "old_name": "df",
+      "new_name": "dataframe",
+      "delta_mean_nll": 3.484375,
+      "orig_tokens": [
+        "Ġdf"
+      ],
+      "sub_tokens": [
+        "Ġdataframe"
+      ],
+      "binding_context": "df = pd.DataFrame(standardized_data, columns=FEATURE_NAMES)"
+    },
+    {
+      "example_id": "BigCodeBench/29",
+      "old_name": "encoded_data",
+      "new_name": "encoded_payload",
+      "delta_mean_nll": 2.721354166666667,
+      "orig_tokens": [
+        "Ġencoded",
+        "_",
+        "data"
+      ],
+      "sub_tokens": [
+        "Ġencoded",
+        "_",
+        "payload"
+      ],
+      "binding_context": "encoded_data = base64.b64encode(standardized_data_str.encode('ascii')).decode('ascii')"
+    },
+    {
+      "example_id": "BigCodeBench/31",
+      "old_name": "freq",
+      "new_name": "frequencies",
+      "delta_mean_nll": 2.3828125,
+      "orig_tokens": [
+        "Ġfreq"
+      ],
+      "sub_tokens": [
+        "Ġfrequencies"
+      ],
+      "binding_context": "freq = nltk.FreqDist(dollar_words)"
+    },
+    {
+      "example_id": "BigCodeBench/4",
+      "old_name": "count_dict",
+      "new_name": "counts",
+      "delta_mean_nll": 1.9254557291666665,
+      "orig_tokens": [
+        "Ġcount",
+        "_",
+        "dict"
+      ],
+      "sub_tokens": [
+        "Ġcounts"
+      ],
+      "binding_context": "count_dict = Counter(itertools.chain.from_iterable(d.values()))"
+    },
+    {
+      "example_id": "BigCodeBench/21",
+      "old_name": "system_info",
+      "new_name": "info",
+      "delta_mean_nll": 1.8294270833333335,
+      "orig_tokens": [
+        "Ġsystem",
+        "_",
+        "info"
+      ],
+      "sub_tokens": [
+        "Ġinfo"
+      ],
+      "binding_context": "system_info = {}"
+    },
+    {
+      "example_id": "BigCodeBench/28",
+      "old_name": "json_data",
+      "new_name": "json_text",
+      "delta_mean_nll": 1.6748046875000002,
+      "orig_tokens": [
+        "Ġjson",
+        "_",
+        "data"
+      ],
+      "sub_tokens": [
+        "Ġjson",
+        "_",
+        "text"
+      ],
+      "binding_context": "json_data = json.dumps(data)"
+    },
+    {
+      "example_id": "BigCodeBench/6",
+      "old_name": "log_files",
+      "new_name": "matching_files",
+      "delta_mean_nll": 1.6570027669270835,
+      "orig_tokens": [
+        "Ġlog",
+        "_",
+        "files"
+      ],
+      "sub_tokens": [
+        "Ġmatching",
+        "_",
+        "files"
+      ],
+      "binding_context": "log_files = [f for f in os.listdir(log_dir) if re.match(pattern, f)]"
+    },
+    {
+      "example_id": "BigCodeBench/33",
+      "old_name": "second_values",
+      "new_name": "values",
+      "delta_mean_nll": 1.497721354166667,
+      "orig_tokens": [
+        "Ġsecond",
+        "_",
+        "values"
+      ],
+      "sub_tokens": [
+        "Ġvalues"
+      ],
+      "binding_context": "second_values = [pair[1] for pair in list_of_pairs]"
+    },
+    {
+      "example_id": "BigCodeBench/1",
+      "old_name": "random_string",
+      "new_name": "generated_string",
+      "delta_mean_nll": 1.3241373697916667,
+      "orig_tokens": [
+        "Ġrandom",
+        "_",
+        "string"
+      ],
+      "sub_tokens": [
+        "Ġgenerated",
+        "_",
+        "string"
+      ],
+      "binding_context": "random_string = ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase, k=length))"
+    },
+    {
+      "example_id": "BigCodeBench/27",
+      "old_name": "json_data",
+      "new_name": "json_text",
+      "delta_mean_nll": 1.0543619791666665,
+      "orig_tokens": [
+        "Ġjson",
+        "_",
+        "data"
+      ],
+      "sub_tokens": [
+        "Ġjson",
+        "_",
+        "text"
+      ],
+      "binding_context": "json_data = json.dumps(data)"
+    },
+    {
+      "example_id": "BigCodeBench/30",
+      "old_name": "f",
+      "new_name": "file_obj",
+      "delta_mean_nll": 0.9964192708333333,
+      "orig_tokens": [
+        "Ġf"
+      ],
+      "sub_tokens": [
+        "Ġfile",
+        "_",
+        "obj"
+      ],
+      "binding_context": "with open(file_path, 'r') as f:"
+    },
+    {
+      "example_id": "BigCodeBench/25",
+      "old_name": "json_str",
+      "new_name": "json_text",
+      "delta_mean_nll": 0.8955078125,
+      "orig_tokens": [
+        "Ġjson",
+        "_",
+        "str"
+      ],
+      "sub_tokens": [
+        "Ġjson",
+        "_",
+        "text"
+      ],
+      "binding_context": "json_str = json.dumps(data_dict)"
+    }
+  ],
+  "strongest_prefers_substitute": [
+    {
+      "example_id": "BigCodeBench/35",
+      "old_name": "column",
+      "new_name": "col",
+      "delta_mean_nll": -1.171875,
+      "orig_tokens": [
+        "Ġcolumn"
+      ],
+      "sub_tokens": [
+        "Ġcol"
+      ],
+      "binding_context": "for column in df.columns:"
+    },
+    {
+      "example_id": "BigCodeBench/36",
+      "old_name": "column",
+      "new_name": "col",
+      "delta_mean_nll": -0.84375,
+      "orig_tokens": [
+        "Ġcolumn"
+      ],
+      "sub_tokens": [
+        "Ġcol"
+      ],
+      "binding_context": "for column in df.columns:"
+    },
+    {
+      "example_id": "BigCodeBench/16",
+      "old_name": "log_files",
+      "new_name": "matching_files",
+      "delta_mean_nll": -0.775431315104167,
+      "orig_tokens": [
+        "Ġlog",
+        "_",
+        "files"
+      ],
+      "sub_tokens": [
+        "Ġmatching",
+        "_",
+        "files"
+      ],
+      "binding_context": "log_files = glob.glob(os.path.join(directory, '*.log'))"
+    },
+    {
+      "example_id": "BigCodeBench/22",
+      "old_name": "combined",
+      "new_name": "merged",
+      "delta_mean_nll": -0.6640625,
+      "orig_tokens": [
+        "Ġcombined"
+      ],
+      "sub_tokens": [
+        "Ġmerged"
+      ],
+      "binding_context": "combined = [val for pair in zip_longest(l1, l2) for val in pair if val is not None]"
+    },
+    {
+      "example_id": "BigCodeBench/23",
+      "old_name": "combined",
+      "new_name": "merged",
+      "delta_mean_nll": -0.6328125,
+      "orig_tokens": [
+        "Ġcombined"
+      ],
+      "sub_tokens": [
+        "Ġmerged"
+      ],
+      "binding_context": "combined = [val for pair in zip_longest(l1, l2) for val in pair if val is not None]"
+    },
+    {
+      "example_id": "BigCodeBench/19",
+      "old_name": "files",
+      "new_name": "file_paths",
+      "delta_mean_nll": -0.6304524739583333,
+      "orig_tokens": [
+        "Ġfiles"
+      ],
+      "sub_tokens": [
+        "Ġfile",
+        "_",
+        "paths"
+      ],
+      "binding_context": "files = [f for f in glob.glob(os.path.join(directory, '*')) if os.path.isfile(f)]"
+    }
+  ]
+}
