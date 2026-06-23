@@ -1,0 +1,72 @@
+{
+  "n_total_rows": 18,
+  "n_scored_rows": 18,
+  "n_skipped_rows": 0,
+  "tie_eps": 1e-08,
+  "delta_full_mean_nll": {
+    "n": 18,
+    "mean": 0.07707254754172431,
+    "median": 0.06747564673423767,
+    "std": 0.04938719302949453,
+    "min": 0.005016684532165527,
+    "max": 0.22144055366516113,
+    "frac_positive": 1.0,
+    "frac_negative": 0.0
+  },
+  "mean_orig_full_mean_nll": 0.6843721750709746,
+  "mean_pert_full_mean_nll": 0.7614447226126989,
+  "counts": {
+    "prefers_original_full": 18,
+    "prefers_perturbed_full": 0,
+    "ties_full": 0
+  },
+  "counts_by_transform_type": {
+    "comparison_mirror": 9,
+    "if_else_inversion": 8,
+    "augassign_expansion": 1
+  },
+  "skip_reasons": {},
+  "by_transform_type": {
+    "augassign_expansion": {
+      "n": 1,
+      "mean": 0.05988988280296326,
+      "median": 0.05988988280296326,
+      "std": 0.0,
+      "min": 0.05988988280296326,
+      "max": 0.05988988280296326,
+      "frac_positive": 1.0,
+      "frac_negative": 0.0
+    },
+    "comparison_mirror": {
+      "n": 9,
+      "mean": 0.05185800128512912,
+      "median": 0.04779636859893799,
+      "std": 0.028024624409080694,
+      "min": 0.005016684532165527,
+      "max": 0.10524559020996094,
+      "frac_positive": 1.0,
+      "frac_negative": 0.0
+    },
+    "if_else_inversion": {
+      "n": 8,
+      "mean": 0.10758674517273903,
+      "median": 0.08678942918777466,
+      "std": 0.05404761415430394,
+      "min": 0.06226271390914917,
+      "max": 0.22144055366516113,
+      "frac_positive": 1.0,
+      "frac_negative": 0.0
+    }
+  },
+  "input_file": "quixbugs_structural_matched_subset_18.jsonl",
+  "output_file": "quixbugs_structural_matched_full_nll_scores.jsonl",
+  "model": "bigcode/starcoderbase-3b",
+  "orig_field": "source_code",
+  "pert_field": "perturbed_source_code",
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "max_context": 8192,
+  "truncate": "none",
+  "add_special_tokens": false,
+  "metric_note": "Whole-instance mean NLL. delta_full_mean_nll = pert_full_mean_nll - orig_full_mean_nll. Positive means the model prefers the original full code instance."
+}

@@ -1,0 +1,13 @@
+{
+  "input": "quixbugs_var_scores.jsonl",
+  "n_input_rows": 37,
+  "n_output_rows": 25,
+  "max_per_example": 1,
+  "n_no_source": 0,
+  "n_parse_failed": 0,
+  "n_no_safe_structural_transform": 12,
+  "counts_by_transform": {
+    "if_else_inversion": 8,
+    "comparison_mirror": 17
+  }
+}

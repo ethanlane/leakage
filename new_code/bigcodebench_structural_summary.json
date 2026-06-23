@@ -1,0 +1,13 @@
+{
+  "input": "bigcodebench_var_scores.jsonl",
+  "n_input_rows": 40,
+  "n_output_rows": 5,
+  "max_per_example": 1,
+  "n_no_source": 0,
+  "n_parse_failed": 0,
+  "n_no_safe_structural_transform": 35,
+  "counts_by_transform": {
+    "comparison_mirror": 4,
+    "if_else_inversion": 1
+  }
+}

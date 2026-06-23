@@ -1,0 +1,193 @@
+{
+  "n_total_rows": 37,
+  "n_scored_rows": 37,
+  "n_skipped_rows": 0,
+  "tie_eps": 1e-08,
+  "delta_full_mean_nll": {
+    "n": 37,
+    "mean": 0.01849505869117943,
+    "median": 0.019429147243499756,
+    "std": 0.04801142159674127,
+    "min": -0.1836792230606079,
+    "max": 0.12743127346038818,
+    "frac_positive": 0.7837837837837838,
+    "frac_negative": 0.21621621621621623
+  },
+  "mean_orig_full_mean_nll": 1.0269827713837494,
+  "mean_pert_full_mean_nll": 1.045477830074929,
+  "counts": {
+    "prefers_original_full": 29,
+    "prefers_perturbed_full": 8,
+    "ties_full": 0
+  },
+  "counts_by_transform_type": {
+    "augassign_expansion": 1,
+    "comparison_mirror": 6,
+    "constructor_to_dict_comprehension": 1,
+    "conditional_expression_inversion": 3,
+    "list_constructor_unpack": 4,
+    "not_call_to_eq_false": 8,
+    "empty_list_check_rewrite": 2,
+    "if_else_inversion": 1,
+    "call_argument_order_keyword": 2,
+    "call_argument_keyword": 3,
+    "method_call_to_dunder_call": 3,
+    "membership_negation_rewrite": 1,
+    "empty_container_check_rewrite": 1,
+    "list_comprehension_to_map": 1
+  },
+  "skip_reasons": {},
+  "by_transform_type": {
+    "augassign_expansion": {
+      "n": 1,
+      "mean": -0.011371374130249023,
+      "median": -0.011371374130249023,
+      "std": 0.0,
+      "min": -0.011371374130249023,
+      "max": -0.011371374130249023,
+      "frac_positive": 0.0,
+      "frac_negative": 1.0
+    },
+    "call_argument_keyword": {
+      "n": 3,
+      "mean": 0.007192055384318034,
+      "median": 0.01579606533050537,
+      "std": 0.026079693367869698,
+      "min": -0.028169631958007812,
+      "max": 0.03394973278045654,
+      "frac_positive": 0.6666666666666666,
+      "frac_negative": 0.3333333333333333
+    },
+    "call_argument_order_keyword": {
+      "n": 2,
+      "mean": 0.010211646556854248,
+      "median": 0.010211646556854248,
+      "std": 0.0257909893989563,
+      "min": -0.01557934284210205,
+      "max": 0.03600263595581055,
+      "frac_positive": 0.5,
+      "frac_negative": 0.5
+    },
+    "comparison_mirror": {
+      "n": 6,
+      "mean": 0.05603984991709391,
+      "median": 0.04420268535614014,
+      "std": 0.03643907116423114,
+      "min": 0.023522257804870605,
+      "max": 0.12743127346038818,
+      "frac_positive": 1.0,
+      "frac_negative": 0.0
+    },
+    "conditional_expression_inversion": {
+      "n": 3,
+      "mean": 0.0187916358311971,
+      "median": 0.0203629732131958,
+      "std": 0.013684980202958054,
+      "min": 0.0013006925582885742,
+      "max": 0.034711241722106934,
+      "frac_positive": 1.0,
+      "frac_negative": 0.0
+    },
+    "constructor_to_dict_comprehension": {
+      "n": 1,
+      "mean": -0.1836792230606079,
+      "median": -0.1836792230606079,
+      "std": 0.0,
+      "min": -0.1836792230606079,
+      "max": -0.1836792230606079,
+      "frac_positive": 0.0,
+      "frac_negative": 1.0
+    },
+    "empty_container_check_rewrite": {
+      "n": 1,
+      "mean": -0.04324519634246826,
+      "median": -0.04324519634246826,
+      "std": 0.0,
+      "min": -0.04324519634246826,
+      "max": -0.04324519634246826,
+      "frac_positive": 0.0,
+      "frac_negative": 1.0
+    },
+    "empty_list_check_rewrite": {
+      "n": 2,
+      "mean": -0.018750131130218506,
+      "median": -0.018750131130218506,
+      "std": 0.0005763769149780273,
+      "min": -0.019326508045196533,
+      "max": -0.01817375421524048,
+      "frac_positive": 0.0,
+      "frac_negative": 1.0
+    },
+    "if_else_inversion": {
+      "n": 1,
+      "mean": 0.11373686790466309,
+      "median": 0.11373686790466309,
+      "std": 0.0,
+      "min": 0.11373686790466309,
+      "max": 0.11373686790466309,
+      "frac_positive": 1.0,
+      "frac_negative": 0.0
+    },
+    "list_comprehension_to_map": {
+      "n": 1,
+      "mean": -0.024433493614196777,
+      "median": -0.024433493614196777,
+      "std": 0.0,
+      "min": -0.024433493614196777,
+      "max": -0.024433493614196777,
+      "frac_positive": 0.0,
+      "frac_negative": 1.0
+    },
+    "list_constructor_unpack": {
+      "n": 4,
+      "mean": 0.03572823107242584,
+      "median": 0.03187614679336548,
+      "std": 0.02024055280688475,
+      "min": 0.015816986560821533,
+      "max": 0.06334364414215088,
+      "frac_positive": 1.0,
+      "frac_negative": 0.0
+    },
+    "membership_negation_rewrite": {
+      "n": 1,
+      "mean": 0.01766836643218994,
+      "median": 0.01766836643218994,
+      "std": 0.0,
+      "min": 0.01766836643218994,
+      "max": 0.01766836643218994,
+      "frac_positive": 1.0,
+      "frac_negative": 0.0
+    },
+    "method_call_to_dunder_call": {
+      "n": 3,
+      "mean": 0.02622509002685547,
+      "median": 0.016709089279174805,
+      "std": 0.018070728644694313,
+      "min": 0.010442614555358887,
+      "max": 0.051523566246032715,
+      "frac_positive": 1.0,
+      "frac_negative": 0.0
+    },
+    "not_call_to_eq_false": {
+      "n": 8,
+      "mean": 0.024617478251457214,
+      "median": 0.020602911710739136,
+      "std": 0.010351986247264366,
+      "min": 0.014198064804077148,
+      "max": 0.04305744171142578,
+      "frac_positive": 1.0,
+      "frac_negative": 0.0
+    }
+  },
+  "input_file": "bigcodebench_structural_manual.jsonl",
+  "output_file": "bigcodebench_structural_full_nll_scores.jsonl",
+  "model": "bigcode/starcoderbase-3b",
+  "orig_field": "source_code",
+  "pert_field": "transformed_source_code",
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "max_context": 8192,
+  "truncate": "none",
+  "add_special_tokens": false,
+  "metric_note": "Whole-instance mean NLL. delta_full_mean_nll = pert_full_mean_nll - orig_full_mean_nll. Positive means the model prefers the original full code instance."
+}

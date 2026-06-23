@@ -1,0 +1,72 @@
+{
+  "n_total_rows": 18,
+  "n_scored_rows": 18,
+  "n_skipped_rows": 0,
+  "tie_eps": 1e-08,
+  "delta_full_mean_nll": {
+    "n": 18,
+    "mean": 0.03938001725408766,
+    "median": 0.03637486696243286,
+    "std": 0.03144562080648514,
+    "min": -0.013531923294067383,
+    "max": 0.12743127346038818,
+    "frac_positive": 0.8888888888888888,
+    "frac_negative": 0.1111111111111111
+  },
+  "mean_orig_full_mean_nll": 1.0020568172136943,
+  "mean_pert_full_mean_nll": 1.041436834467782,
+  "counts": {
+    "prefers_original_full": 16,
+    "prefers_perturbed_full": 2,
+    "ties_full": 0
+  },
+  "counts_by_transform_type": {
+    "comparison_mirror": 9,
+    "if_else_inversion": 8,
+    "augassign_expansion": 1
+  },
+  "skip_reasons": {},
+  "by_transform_type": {
+    "augassign_expansion": {
+      "n": 1,
+      "mean": -0.011371374130249023,
+      "median": -0.011371374130249023,
+      "std": 0.0,
+      "min": -0.011371374130249023,
+      "max": -0.011371374130249023,
+      "frac_positive": 0.0,
+      "frac_negative": 1.0
+    },
+    "comparison_mirror": {
+      "n": 9,
+      "mean": 0.05432632896635267,
+      "median": 0.05156290531158447,
+      "std": 0.029872001825316696,
+      "min": 0.023522257804870605,
+      "max": 0.12743127346038818,
+      "frac_positive": 1.0,
+      "frac_negative": 0.0
+    },
+    "if_else_inversion": {
+      "n": 8,
+      "mean": 0.028909340500831604,
+      "median": 0.03347581624984741,
+      "std": 0.023196293830620225,
+      "min": -0.013531923294067383,
+      "max": 0.0614544153213501,
+      "frac_positive": 0.875,
+      "frac_negative": 0.125
+    }
+  },
+  "input_file": "bigcodebench_structural_shared_matched_subset_18.jsonl",
+  "output_file": "bigcodebench_structural_matched_full_nll_scores.jsonl",
+  "model": "bigcode/starcoderbase-3b",
+  "orig_field": "source_code",
+  "pert_field": "transformed_source_code",
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "max_context": 8192,
+  "truncate": "none",
+  "add_special_tokens": false,
+  "metric_note": "Whole-instance mean NLL. delta_full_mean_nll = pert_full_mean_nll - orig_full_mean_nll. Positive means the model prefers the original full code instance."
+}
