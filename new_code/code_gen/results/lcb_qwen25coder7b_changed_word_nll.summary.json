@@ -1,0 +1,12 @@
+{
+  "input": "generated/livecodebench_manual_synonym_selected.jsonl",
+  "output": "results/lcb_qwen25coder7b_changed_word_nll.jsonl",
+  "model": "Qwen/Qwen2.5-Coder-1.5B",
+  "n_total": 33,
+  "n_scored": 32,
+  "n_skipped": 1,
+  "mean_delta_sum_nll": 5.640798579901457,
+  "frac_positive_delta_sum_nll": 0.90625,
+  "positive_half_mean_delta_sum_nll": 6.486182915753331,
+  "interpretation": "delta_sum_nll = perturbed_changed_word_nll - original_changed_word_nll; positive means model prefers original changed word."
+}

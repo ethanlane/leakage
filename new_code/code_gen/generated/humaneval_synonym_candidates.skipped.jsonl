@@ -1,0 +1,5 @@
+{"dataset": "humaneval", "task_id": "HumanEval/10", "reason": "no_target_with_enough_synonyms", "question_text": " Test if given string is a palindrome "}
+{"dataset": "humaneval", "task_id": "HumanEval/23", "reason": "no_target_with_enough_synonyms", "question_text": " Return length of given string\n    >>> strlen('')\n    0\n    >>> strlen('abc')\n    3\n    "}
+{"dataset": "humaneval", "task_id": "HumanEval/53", "reason": "no_target_with_enough_synonyms", "question_text": "Add two numbers x and y\n    >>> add(2, 3)\n    5\n    >>> add(5, 7)\n    12\n    "}
+{"dataset": "humaneval", "task_id": "HumanEval/55", "reason": "no_target_with_enough_synonyms", "question_text": "Return n-th Fibonacci number.\n    >>> fib(10)\n    55\n    >>> fib(1)\n    1\n    >>> fib(8)\n    21\n    "}
+{"dataset": "humaneval", "task_id": "HumanEval/64", "reason": "no_target_with_enough_synonyms", "question_text": "\nAdd more test cases.\n"}

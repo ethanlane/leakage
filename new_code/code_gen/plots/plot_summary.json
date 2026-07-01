@@ -1,0 +1,16 @@
+{
+  "humaneval_n": 73,
+  "lcb_n": 32,
+  "common_xlim": [
+    -1.2312471210956575,
+    25.856249862909316
+  ],
+  "common_ylim": [
+    0,
+    0.45878721343697015
+  ],
+  "humaneval_orig_mean": 1.4077570634345486,
+  "humaneval_pert_mean": 7.195526541095891,
+  "lcb_orig_mean": 6.103342045098543,
+  "lcb_pert_mean": 11.744140625
+}

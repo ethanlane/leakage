@@ -1,0 +1,12 @@
+{
+  "input": "generated/humaneval_manual_synonym_selected.jsonl",
+  "output": "results/humaneval_qwen25coder7b_changed_word_nll.jsonl",
+  "model": "Qwen/Qwen2.5-Coder-1.5B",
+  "n_total": 79,
+  "n_scored": 73,
+  "n_skipped": 6,
+  "mean_delta_sum_nll": 5.7877694776613415,
+  "frac_positive_delta_sum_nll": 0.958904109589041,
+  "positive_half_mean_delta_sum_nll": 6.102111383846828,
+  "interpretation": "delta_sum_nll = perturbed_changed_word_nll - original_changed_word_nll; positive means model prefers original changed word."
+}
